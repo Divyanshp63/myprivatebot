@@ -37,7 +37,7 @@ async def handle_notes(update, context):
 
     try:
         response = ai_client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-3.8-flash',
             contents=prompt,
         )
         await status_msg.edit_text(response.text, parse_mode='Markdown')
