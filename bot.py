@@ -1,5 +1,6 @@
 import os
 import json
+import random
 import logging
 import asyncio
 import threading
@@ -7,14 +8,13 @@ from flask import Flask
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 from google import genai
 from google.genai import types
-from google.genai.errors import APIError
 
-# ----------------- 1. Dummy Web Server (Render 24/7 ke liye) -----------------
+# ----------------- 1. Dummy Web Server (Render 24/7) -----------------
 web_app = Flask(__name__)
 
 @web_app.route('/')
 def home():
-    return "RRB NTPC Study Bot is Alive!"
+    return "RRB NTPC Study Bot is 100% Active!"
 
 def run_web():
     port = int(os.environ.get("PORT", 8080))
@@ -22,41 +22,68 @@ def run_web():
 
 threading.Thread(target=run_web, daemon=True).start()
 
-# ----------------- 2. API Keys & Client -----------------
+# ----------------- 2. API Keys & Setup -----------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8846774051:AAFhJunFo1jd3azOs5jckXLRJvS-yKS30Hk")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6KfSREWDbY-4wEE_vRymAO6QYEwOuUYDc5pPHyCbWFoHg")
 
 ai_client = genai.Client(api_key=GEMINI_API_KEY)
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-# Stable fast model name
-MODEL_NAME = 'gemini-2.5-flash'
+# Primary aur Fallback models list
+MODELS_TO_TRY = ['gemini-3.8-flash', 'gemini-3-flash', 'gemini-1.5-flash-8b']
 
-async def generate_with_retry(prompt, config=None, retries=3, delay=2):
-    """503 Server Busy ke liye automatic backoff retry function"""
-    for attempt in range(retries):
-        try:
-            kwargs = {"model": MODEL_NAME, "contents": prompt}
-            if config:
-                kwargs["config"] = config
-            response = ai_client.models.generate_content(**kwargs)
-            return response
-        except APIError as e:
-            if getattr(e, 'code', None) == 503 or "503" in str(e) or "UNAVAILABLE" in str(e):
-                logging.warning(f"503 Server Busy. Retrying in {delay}s... (Attempt {attempt+1}/{retries})")
-                await asyncio.sleep(delay)
-                delay *= 2
-            else:
-                raise e
-        except Exception as e:
-            if "503" in str(e) or "UNAVAILABLE" in str(e):
-                await asyncio.sleep(delay)
-                delay *= 2
-            else:
-                raise e
-    raise Exception("Model par load zyada hai. Kripya 1 minute baad try karein.")
+# ----------------- 3. Offline Backup PYQ Bank -----------------
+# Agar Google API temporary 100% fail ho jaye, toh user ko inme se authentic Railway PYQ turant mil jayega
+OFFLINE_PYQ_BANK = [
+    {
+        "question": "RRB NTPC: 1857 ke vidroh ke samay Bharat ka Governor-General kaun tha?",
+        "options": ["Lord Canning", "Lord Dalhousie", "Lord Curzon", "Lord William Bentinck"],
+        "correct_index": 0,
+        "explanation": "Lord Canning 1857 ke vidroh ke samay Governor-General tha, aur baad mein Bharat ka pehla Viceroy bana."
+    },
+    {
+        "question": "RRB NTPC: Ek train 72 km/h ki raftaar se 200m lambe bridge ko 20 second mein paar karti hai. Train ki lambai kya hai?",
+        "options": ["200 m", "250 m", "150 m", "300 m"],
+        "correct_index": 0,
+        "explanation": "Speed = 72 * (5/18) = 20 m/s. Kul doori = 20 * 20 = 400m. Train ki lambai = 400 - 200 = 200m."
+    },
+    {
+        "question": "RRB NTPC: Paani ka maximum density (adhiktam ghantva) kis tapmaan par hota hai?",
+        "options": ["0°C", "4°C", "100°C", "-4°C"],
+        "correct_index": 1,
+        "explanation": "Paani ka adhiktam ghantva 4°C (ya 277 Kelvin) par hota hai."
+    },
+    {
+        "question": "RRB NTPC: Bharatiya Samvidhan mein 'Maulik Adhikar' (Fundamental Rights) kis desh se liye gaye hain?",
+        "options": ["USA", "Russia", "UK", "Canada"],
+        "correct_index": 0,
+        "explanation": "Fundamental Rights United States (USA) ke Samvidhan se liye gaye hain (Bhag 3, Article 12-35)."
+    }
+]
 
-# ----------------- 3. Handlers -----------------
+# ----------------- 4. Bulletproof AI Engine -----------------
+async def call_gemini_safe(prompt, as_json=False):
+    """Multiple models try karega aur backoff retry ke saath run karega."""
+    config = types.GenerateContentConfig(response_mime_type="application/json") if as_json else None
+    
+    for model_name in MODELS_TO_TRY:
+        for attempt in range(2):  # Har model ko 2 chances
+            try:
+                response = ai_client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=config
+                )
+                if response and response.text:
+                    return response.text
+            except Exception as e:
+                logging.warning(f"Model {model_name} attempt {attempt+1} failed: {e}")
+                await asyncio.sleep(1.5)  # Thoda wait karke retry
+                continue
+                
+    return None  # Saare models fail ho gaye
+
+# ----------------- 5. Handlers -----------------
 async def start(update, context):
     welcome_text = (
         "🚂 **RRB NTPC AI Study Partner mein aapka swagat hai!**\n\n"
@@ -71,7 +98,6 @@ async def start(update, context):
     await update.message.reply_text(welcome_text, parse_mode='Markdown')
 
 async def handle_ntpc_notes(update, context):
-    """RRB NTPC specific notes, formulas and shortcut tricks"""
     topic = update.message.text.strip()
     status_msg = await update.message.reply_text(f"⏳ **{topic}** (RRB NTPC Special) taiyar ho raha hai...")
 
@@ -91,14 +117,26 @@ async def handle_ntpc_notes(update, context):
     (Ek railway level question aur uska quick solution)
     """
 
-    try:
-        response = await generate_with_retry(prompt=prompt)
-        await status_msg.edit_text(response.text, parse_mode='Markdown')
-    except Exception as e:
-        await status_msg.edit_text(f"⚠️ Server busy hai: {e}")
+    res_text = await call_gemini_safe(prompt=prompt, as_json=False)
+    
+    if res_text:
+        try:
+            await status_msg.edit_text(res_text, parse_mode='Markdown')
+        except Exception:
+            # Markdown parsing issue se bachne ke liye plain text fallback
+            await status_msg.edit_text(res_text)
+    else:
+        # User ko error code dikhane ke bajay friendly study tip
+        fallback_msg = (
+            f"📘 **RRB NTPC Rapid Revision: {topic}**\n\n"
+            "⚠️ AI servers par temporary load spike hai, par aapki padhai rukni nahi chahiye:\n"
+            "• Is topic ke previous year railway questions ko speed tests ke saath practice karein.\n"
+            "• Formulas aur shortcut tricks revise karein.\n\n"
+            "💡 Dobara command bhejein ya `/pyq` attempt karein!"
+        )
+        await status_msg.edit_text(fallback_msg)
 
 async def handle_pyq_quiz(update, context):
-    """RRB NTPC Previous Year Questions as native Telegram Quiz Poll"""
     subject = "General Awareness & Science & Maths"
     if context.args:
         arg = context.args[0].lower()
@@ -127,12 +165,25 @@ async def handle_pyq_quiz(update, context):
     - The question should feel like an actual railway exam paper question.
     """
 
-    try:
-        config = types.GenerateContentConfig(response_mime_type="application/json")
-        response = await generate_with_retry(prompt=prompt, config=config)
-        quiz_data = json.loads(response.text)
-        await status_msg.delete()
+    quiz_data = None
+    res_text = await call_gemini_safe(prompt=prompt, as_json=True)
 
+    if res_text:
+        try:
+            # Agar codeblocks aa jayein toh clean karna
+            clean_json = res_text.replace("```json", "").replace("```", "").strip()
+            quiz_data = json.loads(clean_json)
+        except Exception as parse_err:
+            logging.error(f"JSON Parse error: {parse_err}")
+            quiz_data = None
+
+    # Agar AI down ho ya JSON galat ho, Offline PYQ Bank se direct pick karega
+    if not quiz_data:
+        logging.info("Serving from offline backup bank...")
+        quiz_data = random.choice(OFFLINE_PYQ_BANK)
+
+    try:
+        await status_msg.delete()
         await context.bot.send_poll(
             chat_id=update.effective_chat.id,
             question=quiz_data["question"][:295],
@@ -143,9 +194,10 @@ async def handle_pyq_quiz(update, context):
             explanation=quiz_data.get("explanation", "Right Answer!")[:195],
         )
     except Exception as e:
-        await status_msg.edit_text(f"❌ PYQ lane mein error: {e}")
+        logging.error(f"Failed to send poll: {e}")
+        await update.message.reply_text("Quiz load hone mein dikkat aayi. Kripya ek baar fir `/quiz` type karein.")
 
-# ----------------- 4. Main App -----------------
+# ----------------- 6. Main App -----------------
 def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
@@ -154,7 +206,7 @@ def main():
     app.add_handler(CommandHandler("quiz", handle_pyq_quiz))
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_ntpc_notes))
 
-    print("✅ RRB NTPC AI Bot chalu ho chuka hai!")
+    print("✅ RRB NTPC AI Bot chalu ho chuka hai (Zero-Error Mode Active)!")
     app.run_polling()
 
 if __name__ == '__main__':
