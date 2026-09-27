@@ -1,11 +1,13 @@
 import os
 import json
 import logging
+import asyncio
 import threading
 from flask import Flask
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 from google import genai
 from google.genai import types
+from google.genai.errors import APIError
 
 # ----------------- 1. Dummy Web Server (Render 24/7 ke liye) -----------------
 web_app = Flask(__name__)
@@ -20,12 +22,39 @@ def run_web():
 
 threading.Thread(target=run_web, daemon=True).start()
 
-# ----------------- 2. API Keys -----------------
-BOT_TOKEN = "8846774051:AAFhJunFo1jd3azOs5jckXLRJvS-yKS30Hk"
-GEMINI_API_KEY = "AQ.Ab8RN6KfSREWDbY-4wEE_vRymAO6QYEwOuUYDc5pPHyCbWFoHg"
+# ----------------- 2. API Keys & Client -----------------
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8846774051:AAFhJunFo1jd3azOs5jckXLRJvS-yKS30Hk")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6KfSREWDbY-4wEE_vRymAO6QYEwOuUYDc5pPHyCbWFoHg")
 
 ai_client = genai.Client(api_key=GEMINI_API_KEY)
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+
+# Stable fast model name
+MODEL_NAME = 'gemini-2.5-flash'
+
+async def generate_with_retry(prompt, config=None, retries=3, delay=2):
+    """503 Server Busy ke liye automatic backoff retry function"""
+    for attempt in range(retries):
+        try:
+            kwargs = {"model": MODEL_NAME, "contents": prompt}
+            if config:
+                kwargs["config"] = config
+            response = ai_client.models.generate_content(**kwargs)
+            return response
+        except APIError as e:
+            if getattr(e, 'code', None) == 503 or "503" in str(e) or "UNAVAILABLE" in str(e):
+                logging.warning(f"503 Server Busy. Retrying in {delay}s... (Attempt {attempt+1}/{retries})")
+                await asyncio.sleep(delay)
+                delay *= 2
+            else:
+                raise e
+        except Exception as e:
+            if "503" in str(e) or "UNAVAILABLE" in str(e):
+                await asyncio.sleep(delay)
+                delay *= 2
+            else:
+                raise e
+    raise Exception("Model par load zyada hai. Kripya 1 minute baad try karein.")
 
 # ----------------- 3. Handlers -----------------
 async def start(update, context):
@@ -63,13 +92,10 @@ async def handle_ntpc_notes(update, context):
     """
 
     try:
-        response = ai_client.models.generate_content(
-            model='gemini-3.8-flash',
-            contents=prompt,
-        )
+        response = await generate_with_retry(prompt=prompt)
         await status_msg.edit_text(response.text, parse_mode='Markdown')
     except Exception as e:
-        await status_msg.edit_text(f"❌ Error aaya: {e}")
+        await status_msg.edit_text(f"⚠️ Server busy hai: {e}")
 
 async def handle_pyq_quiz(update, context):
     """RRB NTPC Previous Year Questions as native Telegram Quiz Poll"""
@@ -102,13 +128,8 @@ async def handle_pyq_quiz(update, context):
     """
 
     try:
-        response = ai_client.models.generate_content(
-            model='gemini-3.8-flash',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json"
-            )
-        )
+        config = types.GenerateContentConfig(response_mime_type="application/json")
+        response = await generate_with_retry(prompt=prompt, config=config)
         quiz_data = json.loads(response.text)
         await status_msg.delete()
 
