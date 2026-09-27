@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "RRB NTPC: 320 ka 45% kitna hoga?",
+    "options": [
+      "144",
+      "150",
+      "160",
+      "136"
+    ],
+    "correct_index": 0,
+    "explanation": "320 * 45/100 = 144."
+  },
+  {
+    "question": "RRB NTPC: Ek chhaatr ne 500 mein se 65% ank prapt kiye. Uske kitne ank the?",
+    "options": [
+      "300",
+      "310",
+      "325",
+      "330"
+    ],
+    "correct_index": 2,
+    "explanation": "500 * 65/100 = 325 ank."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya ko 20% badhane par 240 milta hai. Mool sankhya kya thi?",
+    "options": [
+      "190",
+      "195",
+      "200",
+      "210"
+    ],
+    "correct_index": 2,
+    "explanation": "X * 1.2 = 240, isliye X = 240/1.2 = 200."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya ko 15% ghatane par 170 reh jati hai. Mool sankhya kya thi?",
+    "options": [
+      "195",
+      "200",
+      "210",
+      "220"
+    ],
+    "correct_index": 1,
+    "explanation": "X * 0.85 = 170, isliye X = 170/0.85 = 200."
+  },
+  {
+    "question": "RRB NTPC: 150 ka kitna pratishat 45 hota hai?",
+    "options": [
+      "25%",
+      "28%",
+      "30%",
+      "35%"
+    ],
+    "correct_index": 2,
+    "explanation": "(45/150) * 100 = 30%."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya pehle 10% badhayi gayi, phir 20% badhayi gayi. Net pratishat vridhi kitni hai?",
+    "options": [
+      "28%",
+      "30%",
+      "32%",
+      "35%"
+    ],
+    "correct_index": 2,
+    "explanation": "1.10 * 1.20 = 1.32, yani net vridhi 32%."
+  },
+  {
+    "question": "RRB NTPC: Pass hone ke liye 40% ank chahiye. Ek chhaatr ko 130 ank mile aur wah 6 ank se fail ho gaya. Kul ank kitne the?",
+    "options": [
+      "320",
+      "330",
+      "340",
+      "350"
+    ],
+    "correct_index": 2,
+    "explanation": "Pass ank = 130+6 = 136 = 40% of total, isliye total = 136/0.40 = 340."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya ka 25% 50 hai. Us sankhya ka 60% kya hoga?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "correct_index": 2,
+    "explanation": "Sankhya = 50/0.25 = 200, isliye 60% = 200*0.6 = 120."
+  },
+  {
+    "question": "RRB NTPC: A ki salary B se 20% zyada hai. B ki salary A se kitne pratishat kam hai?",
+    "options": [
+      "16.67%",
+      "20%",
+      "18%",
+      "22%"
+    ],
+    "correct_index": 0,
+    "explanation": "B, A se (20/120)*100 = 16.67% kam hai."
+  },
+  {
+    "question": "RRB NTPC: Ek shahar ki jansankhya 25000 hai jo har saal 4% badhti hai. 2 saal baad jansankhya kya hogi?",
+    "options": [
+      "26500",
+      "26980",
+      "27040",
+      "27200"
+    ],
+    "correct_index": 2,
+    "explanation": "25000 * 1.04 * 1.04 = 27040."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya ko 20% se kam karne par 160 reh jati hai. Mool sankhya kya thi?",
+    "options": [
+      "180",
+      "190",
+      "200",
+      "210"
+    ],
+    "correct_index": 2,
+    "explanation": "X * 0.80 = 160, isliye X = 160/0.80 = 200."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 800 rupaye mein khareedi gayi aur 25% labh par bechi gayi. Vikray mulya kya hoga?",
+    "options": [
+      "950",
+      "980",
+      "1000",
+      "1050"
+    ],
+    "correct_index": 2,
+    "explanation": "SP = 800 * 1.25 = 1000 rupaye."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 690 rupaye mein bechi gayi jisse 8% hani hui. Kraya mulya kya tha?",
+    "options": [
+      "720",
+      "740",
+      "750",
+      "760"
+    ],
+    "correct_index": 2,
+    "explanation": "CP * 0.92 = 690, isliye CP = 690/0.92 = 750."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 500 rupaye mein khareedi aur 575 rupaye mein bechi gayi. Labh pratishat kya hoga?",
+    "options": [
+      "10%",
+      "12%",
+      "15%",
+      "18%"
+    ],
+    "correct_index": 2,
+    "explanation": "Labh = 75, labh% = (75/500)*100 = 15%."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu ka ankit mulya 1000 rupaye hai aur 20% chhoot di jati hai. Vikray mulya kya hoga?",
+    "options": [
+      "750",
+      "780",
+      "800",
+      "850"
+    ],
+    "correct_index": 2,
+    "explanation": "SP = 1000 * (1 - 0.20) = 800 rupaye."
+  },
+  {
+    "question": "RRB NTPC: Ek dukaandar kraya mulya se 50% zyada ankit karta hai aur 10% chhoot deta hai. Labh pratishat kya hoga?",
+    "options": [
+      "30%",
+      "32%",
+      "35%",
+      "38%"
+    ],
+    "correct_index": 2,
+    "explanation": "1.50 * 0.90 = 1.35, yani labh 35%."
+  },
+  {
+    "question": "RRB NTPC: Ek dukaandar kraya mulya se 20% zyada ankit karta hai aur 10% chhoot deta hai. Labh pratishat kya hoga?",
+    "options": [
+      "6%",
+      "8%",
+      "10%",
+      "12%"
+    ],
+    "correct_index": 1,
+    "explanation": "1.20 * 0.90 = 1.08, yani labh 8%."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 1200 rupaye mein bechi gayi jisse 20% labh hua. Kraya mulya kya tha?",
+    "options": [
+      "950",
+      "980",
+      "1000",
+      "1050"
+    ],
+    "correct_index": 2,
+    "explanation": "CP * 1.20 = 1200, isliye CP = 1200/1.20 = 1000."
+  },
+  {
+    "question": "RRB NTPC: 300 rupaye ki kraya mulya wali vastu par 60 rupaye ki hani hui. Hani pratishat kya hai?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "22%"
+    ],
+    "correct_index": 2,
+    "explanation": "Hani% = (60/300)*100 = 20%."
+  },
+  {
+    "question": "RRB NTPC: 1000 rupaye ke ankit mulya par 10% aur 20% ki lagatar do chhootein di jati hain. Vikray mulya kya hoga?",
+    "options": [
+      "700",
+      "710",
+      "720",
+      "730"
+    ],
+    "correct_index": 2,
+    "explanation": "1000 * 0.90 * 0.80 = 720 rupaye."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 250 rupaye mein khareedi aur 300 rupaye mein bechi gayi. Labh pratishat kya hoga?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "correct_index": 2,
+    "explanation": "Labh = 50, labh% = (50/250)*100 = 20%."
+  },
+  {
+    "question": "RRB NTPC: Ek vastu 15% hani par bechi gayi. Yadi ise 340 rupaye zyada mein becha jata to 5% labh hota. Kraya mulya kya tha?",
+    "options": [
+      "1500",
+      "1600",
+      "1700",
+      "1800"
+    ],
+    "correct_index": 2,
+    "explanation": "1.05*CP - 0.85*CP = 340, 0.20*CP = 340, CP = 1700."
+  },
+  {
+    "question": "RRB NTPC: 5000 rupaye par 6% varshik dar se 3 varsh ka saral byaj kitna hoga?",
+    "options": [
+      "800",
+      "850",
+      "900",
+      "950"
+    ],
+    "correct_index": 2,
+    "explanation": "SI = (5000*6*3)/100 = 900 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 8000 rupaye par 5% varshik dar se 4 varsh ka saral byaj kitna hoga?",
+    "options": [
+      "1500",
+      "1550",
+      "1600",
+      "1650"
+    ],
+    "correct_index": 2,
+    "explanation": "SI = (8000*5*4)/100 = 1600 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 5000 rupaye par 3 varsh mein 750 rupaye saral byaj mila. Byaj dar kya hai?",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "7%"
+    ],
+    "correct_index": 1,
+    "explanation": "R = (750*100)/(5000*3) = 5%."
+  },
+  {
+    "question": "RRB NTPC: 4000 rupaye par 8% dar se saral byaj 960 rupaye hua. Samay avadhi kya hai?",
+    "options": [
+      "2 varsh",
+      "3 varsh",
+      "4 varsh",
+      "5 varsh"
+    ],
+    "correct_index": 1,
+    "explanation": "T = (960*100)/(4000*8) = 3 varsh."
+  },
+  {
+    "question": "RRB NTPC: 6% varshik dar se 4 varsh mein 1200 rupaye saral byaj mila. Mool dhan kya tha?",
+    "options": [
+      "4500",
+      "4800",
+      "5000",
+      "5200"
+    ],
+    "correct_index": 2,
+    "explanation": "P = (1200*100)/(6*4) = 5000 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 6000 rupaye par 7% dar se 2 varsh ka misran (P+SI) kitna hoga?",
+    "options": [
+      "6720",
+      "6800",
+      "6840",
+      "6900"
+    ],
+    "correct_index": 2,
+    "explanation": "SI = (6000*7*2)/100 = 840, Misran = 6000+840 = 6840."
+  },
+  {
+    "question": "RRB NTPC: 4000 rupaye par 10% varshik chakravriddhi byaj dar se 2 varsh ka byaj kitna hoga?",
+    "options": [
+      "800",
+      "820",
+      "840",
+      "860"
+    ],
+    "correct_index": 2,
+    "explanation": "Rashi = 4000*1.10*1.10 = 4840, CI = 4840-4000 = 840."
+  },
+  {
+    "question": "RRB NTPC: 10000 rupaye par 5% varshik chakravriddhi byaj dar se 2 varsh baad rashi kya hogi?",
+    "options": [
+      "10920",
+      "10980",
+      "11025",
+      "11100"
+    ],
+    "correct_index": 2,
+    "explanation": "Rashi = 10000*1.05*1.05 = 11025 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 2000 rupaye par 10% dar se 2 varsh ke saral aur chakravriddhi byaj ka antar kya hoga?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "25"
+    ],
+    "correct_index": 2,
+    "explanation": "Antar = P*(R/100)^2 = 2000*0.01 = 20 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 8000 rupaye par 20% varshik chakravriddhi byaj dar se 2 varsh ka byaj kitna hoga?",
+    "options": [
+      "3200",
+      "3350",
+      "3520",
+      "3600"
+    ],
+    "correct_index": 2,
+    "explanation": "Rashi = 8000*1.20*1.20 = 11520, CI = 11520-8000 = 3520."
+  },
+  {
+    "question": "RRB NTPC: 10% varshik dar se 2 varsh ka chakravriddhi byaj 630 rupaye hai. Mool dhan kya tha?",
+    "options": [
+      "2800",
+      "2900",
+      "3000",
+      "3100"
+    ],
+    "correct_index": 2,
+    "explanation": "CI = P*(1.10^2-1) = P*0.21 = 630, isliye P = 3000."
+  },
+  {
+    "question": "RRB NTPC: A ek kaam ko 10 din mein aur B usi kaam ko 15 din mein karta hai. Dono milkar kitne din mein karenge?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 1,
+    "explanation": "1/10 + 1/15 = 1/6, isliye 6 din lagenge."
+  },
+  {
+    "question": "RRB NTPC: A ek kaam 12 din mein aur B 24 din mein karta hai. Dono milkar kitne din mein karenge?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_index": 2,
+    "explanation": "1/12 + 1/24 = 1/8, isliye 8 din lagenge."
+  },
+  {
+    "question": "RRB NTPC: A aur B milkar ek kaam 10 din mein karte hain. A akela 15 din mein karta hai. B akela kitne din mein karega?",
+    "options": [
+      "25",
+      "28",
+      "30",
+      "32"
+    ],
+    "correct_index": 2,
+    "explanation": "1/10 - 1/15 = 1/30, isliye B akela 30 din lega."
+  },
+  {
+    "question": "RRB NTPC: A, B se do guna kushal hai. Dono milkar kaam 12 din mein karte hain. A akela kitne din mein karega?",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "correct_index": 1,
+    "explanation": "Rate B=x, A=2x, 3x=1/12, A ka samay=1/(2x)=18 din."
+  },
+  {
+    "question": "RRB NTPC: 10 aadmi ek kaam 15 din mein karte hain. Wahi kaam 10 din mein karne ke liye kitne aadmi chahiye?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
+    "correct_index": 2,
+    "explanation": "10*15 = M*10, isliye M = 15 aadmi."
+  },
+  {
+    "question": "RRB NTPC: A kaam 20 din mein karta hai. B, A se 25% zyada kushal hai. B akela kitne din mein karega?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_index": 1,
+    "explanation": "B ka samay = 20/1.25 = 16 din."
+  },
+  {
+    "question": "RRB NTPC: A,B,C milkar kaam 6 din mein karte hain. A akela 12 din aur B akela 18 din mein karta hai. C akela kitne din mein karega?",
+    "options": [
+      "30",
+      "33",
+      "36",
+      "40"
+    ],
+    "correct_index": 2,
+    "explanation": "1/6 - 1/12 - 1/18 = 1/36, isliye C akela 36 din lega."
+  },
+  {
+    "question": "RRB NTPC: A ek kaam 15 din mein karta hai. Wah 5 din kaam karke chala jata hai, baaki kaam B 8 din mein poora karta hai. B akela kitne din mein poora kaam karega?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correct_index": 2,
+    "explanation": "Baaki kaam = 2/3, B ka rate = (2/3)/8 = 1/12, isliye B akela 12 din lega."
+  },
+  {
+    "question": "RRB NTPC: Do pipe ek tanki ko 12 aur 15 ghante mein bharte hain, teesra pipe 20 ghante mein khaali karta hai. Teeno saath khulne par tanki kitne ghante mein bharegi?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "1/12+1/15-1/20 = 1/10, isliye 10 ghante lagenge."
+  },
+  {
+    "question": "RRB NTPC: A kaam 9 din mein aur B 12 din mein karta hai. Dono 4 din saath kaam karte hain, baaki kaam A akele kitne din mein poora karega?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_index": 1,
+    "explanation": "4 din mein 7/9 kaam hota hai, baaki 2/9 kaam A 2 din mein poora karega."
+  },
+  {
+    "question": "RRB NTPC: 8 mazdoor ek kaam 20 din mein karte hain. 10 mazdoor wahi kaam kitne din mein karenge?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "correct_index": 2,
+    "explanation": "8*20 = 10*D, isliye D = 16 din."
+  },
+  {
+    "question": "RRB NTPC: Ek train 72 km/h ki raftaar se 250m lambe platform ko 20 second mein paar karti hai. Train ki lambai kya hai?",
+    "options": [
+      "140 m",
+      "150 m",
+      "160 m",
+      "170 m"
+    ],
+    "correct_index": 1,
+    "explanation": "Speed=72*(5/18)=20 m/s, kul doori=20*20=400m, train ki lambai=400-250=150m."
+  },
+  {
+    "question": "RRB NTPC: 150m lambi train ek khambe ko 9 second mein paar karti hai. Train ki gati kya hai?",
+    "options": [
+      "50 km/h",
+      "54 km/h",
+      "60 km/h",
+      "64 km/h"
+    ],
+    "correct_index": 2,
+    "explanation": "Speed=150/9=16.67 m/s = 60 km/h."
+  },
+  {
+    "question": "RRB NTPC: 120m aur 180m lambi do trainein virudh dishaon mein 54 km/h aur 36 km/h ki gati se chal rahi hain. Ek doosre ko paar karne mein kitna samay lagega?",
+    "options": [
+      "10 s",
+      "11 s",
+      "12 s",
+      "14 s"
+    ],
+    "correct_index": 2,
+    "explanation": "Sapeksh gati=90 km/h=25 m/s, kul lambai=300m, samay=300/25=12 second."
+  },
+  {
+    "question": "RRB NTPC: Ek nauka sthir jal mein 15 km/h ki gati se chalti hai aur dhara ki gati 3 km/h hai. Dhara ke anukool 90 km jaane mein kitna samay lagega?",
+    "options": [
+      "4 ghante",
+      "4.5 ghante",
+      "5 ghante",
+      "5.5 ghante"
+    ],
+    "correct_index": 2,
+    "explanation": "Anukool gati=15+3=18 km/h, samay=90/18=5 ghante."
+  },
+  {
+    "question": "RRB NTPC: Ek nauka ki dhara-anukool gati 18 km/h aur dhara-pratikool gati 12 km/h hai. Nauka ki gati sthir jal mein kya hai?",
+    "options": [
+      "13 km/h",
+      "14 km/h",
+      "15 km/h",
+      "16 km/h"
+    ],
+    "correct_index": 2,
+    "explanation": "Nauka ki gati=(18+12)/2=15 km/h."
+  },
+  {
+    "question": "RRB NTPC: Ek vyakti 60 km/h ki gati se jata hai aur 40 km/h ki gati se wapas aata hai. Poori yatra ki ausat gati kya hogi?",
+    "options": [
+      "46 km/h",
+      "48 km/h",
+      "50 km/h",
+      "52 km/h"
+    ],
+    "correct_index": 1,
+    "explanation": "Ausat gati=(2*60*40)/(60+40)=48 km/h."
+  },
+  {
+    "question": "RRB NTPC: 90 km/h ki gati ko meter/second mein badlein.",
+    "options": [
+      "20 m/s",
+      "22.5 m/s",
+      "25 m/s",
+      "27.5 m/s"
+    ],
+    "correct_index": 2,
+    "explanation": "90*(5/18)=25 meter/second."
+  },
+  {
+    "question": "RRB NTPC: Ek vyakti 5 km/h ki gati se chalkar office 10 minute der se pahunchta hai, 6 km/h ki gati se 10 minute pehle pahunchta hai. Office ki doori kya hai?",
+    "options": [
+      "8 km",
+      "9 km",
+      "10 km",
+      "12 km"
+    ],
+    "correct_index": 2,
+    "explanation": "Samay antar=20 min=1/3 ghanta, Doori=(5*6*1/3)/(6-5)=10 km."
+  },
+  {
+    "question": "RRB NTPC: Ek train 45 km/h ki gati se ek doori 6 ghante mein tay karti hai. Wahi doori 5 ghante mein tay karne ke liye gati kya honi chahiye?",
+    "options": [
+      "50 km/h",
+      "52 km/h",
+      "54 km/h",
+      "56 km/h"
+    ],
+    "correct_index": 2,
+    "explanation": "Doori=45*6=270 km, nayi gati=270/5=54 km/h."
+  },
+  {
+    "question": "RRB NTPC: Ek vyakti 360 km ki yatra train (60 km/h) aur car (40 km/h) se 7 ghante mein poori karta hai. Train se tay ki gayi doori kya hai?",
+    "options": [
+      "220 km",
+      "230 km",
+      "240 km",
+      "250 km"
+    ],
+    "correct_index": 2,
+    "explanation": "Samikaran hal karne par train ki doori 240 km aur car ki doori 120 km aati hai."
+  },
+  {
+    "question": "RRB NTPC: 108 km/h ki gati ko meter/second mein badlein.",
+    "options": [
+      "28 m/s",
+      "30 m/s",
+      "32 m/s",
+      "34 m/s"
+    ],
+    "correct_index": 1,
+    "explanation": "108*(5/18)=30 meter/second."
+  },
+  {
+    "question": "RRB NTPC: Do trainein 300m aur 200m lambi, samaan dishaon mein 60 km/h aur 40 km/h ki gati se chal rahi hain. Ek doosre ko paar karne mein kitna samay lagega?",
+    "options": [
+      "80 s",
+      "85 s",
+      "90 s",
+      "95 s"
+    ],
+    "correct_index": 2,
+    "explanation": "Sapeksh gati=20 km/h=5.56 m/s, kul lambai=500m, samay=500/5.56≈90 second."
+  },
+  {
+    "question": "RRB NTPC: 720 rupaye ko 2:3:4 ke anupat mein baanta gaya. Beech wala hissa kitna hoga?",
+    "options": [
+      "200",
+      "220",
+      "240",
+      "260"
+    ],
+    "correct_index": 2,
+    "explanation": "Kul bhaag=9, ek bhaag=80, beech wala hissa=3*80=240."
+  },
+  {
+    "question": "RRB NTPC: A:B=3:4 aur B:C=5:6 hai. A:B:C kya hoga?",
+    "options": [
+      "15:20:24",
+      "12:16:20",
+      "15:18:24",
+      "10:20:24"
+    ],
+    "correct_index": 0,
+    "explanation": "B ko sama karne par A:B:C=15:20:24."
+  },
+  {
+    "question": "RRB NTPC: A:B=2:3 aur B:C=4:5 hai. A:C kya hoga?",
+    "options": [
+      "6:15",
+      "8:15",
+      "6:10",
+      "8:10"
+    ],
+    "correct_index": 1,
+    "explanation": "B ko sama karne par A:B:C=8:12:15, isliye A:C=8:15."
+  },
+  {
+    "question": "RRB NTPC: Do sankhyaon ka yog 480 hai aur unka anupat 5:7 hai. Badi sankhya kya hai?",
+    "options": [
+      "260",
+      "270",
+      "280",
+      "290"
+    ],
+    "correct_index": 2,
+    "explanation": "Kul bhaag=12, ek bhaag=40, badi sankhya=7*40=280."
+  },
+  {
+    "question": "RRB NTPC: Do vyaktiyon ki umr ka anupat 4:5 hai aur yog 54 varsh hai. Bade vyakti ki umr kya hai?",
+    "options": [
+      "28",
+      "29",
+      "30",
+      "32"
+    ],
+    "correct_index": 2,
+    "explanation": "Kul bhaag=9, ek bhaag=6, badi umr=5*6=30 varsh."
+  },
+  {
+    "question": "RRB NTPC: Ek mishran mein doodh aur paani ka anupat 5:2 hai. Kul mishran 84 litre hai. Paani ki matra kya hai?",
+    "options": [
+      "20 L",
+      "22 L",
+      "24 L",
+      "26 L"
+    ],
+    "correct_index": 2,
+    "explanation": "Kul bhaag=7, ek bhaag=12, paani=2*12=24 litre."
+  },
+  {
+    "question": "RRB NTPC: Ek raashi ko 2:3:5 ke anupat mein baanta gaya. Sabse chhota hissa 200 hai. Kul raashi kya hogi?",
+    "options": [
+      "900",
+      "950",
+      "1000",
+      "1050"
+    ],
+    "correct_index": 2,
+    "explanation": "Ek bhaag=200/2=100, kul raashi=10*100=1000 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 0.75:1.25 ko saral anupat mein likhein.",
+    "options": [
+      "2:3",
+      "3:5",
+      "4:5",
+      "3:4"
+    ],
+    "correct_index": 1,
+    "explanation": "0.75:1.25 = 75:125 = 3:5."
+  },
+  {
+    "question": "RRB NTPC: x:y=4:3 hai. (x+y):(x-y) kya hoga?",
+    "options": [
+      "5:1",
+      "6:1",
+      "7:1",
+      "8:1"
+    ],
+    "correct_index": 2,
+    "explanation": "x=4k,y=3k lene par (x+y):(x-y)=7k:1k=7:1."
+  },
+  {
+    "question": "RRB NTPC: Ek kaksha mein ladke aur ladkiyon ka anupat 7:5 hai. Kul vidyarthi 48 hain. Ladkiyon ki sankhya kya hai?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct_index": 1,
+    "explanation": "Kul bhaag=12, ek bhaag=4, ladkiyan=5*4=20."
+  },
+  {
+    "question": "RRB NTPC: Ek raashi P,Q,R mein 2:3:5 ke anupat mein baanti gayi. Q ka hissa 900 hai. R ka hissa kya hoga?",
+    "options": [
+      "1400",
+      "1450",
+      "1500",
+      "1550"
+    ],
+    "correct_index": 2,
+    "explanation": "Ek bhaag=900/3=300, R ka hissa=5*300=1500 rupaye."
+  },
+  {
+    "question": "RRB NTPC: 15 + 6 × (8 − 3) ÷ 5 ka maan gyaat karein.",
+    "options": [
+      "18",
+      "20",
+      "21",
+      "23"
+    ],
+    "correct_index": 2,
+    "explanation": "6*5=30, 30/5=6, 15+6=21 (BODMAS niyam se)."
+  },
+  {
+    "question": "RRB NTPC: (144 ÷ 12) × 3 − 7 ka maan gyaat karein.",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "31"
+    ],
+    "correct_index": 2,
+    "explanation": "144/12=12, 12*3=36, 36-7=29."
+  },
+  {
+    "question": "RRB NTPC: 400 ka 25% + 200 ka 15% ka yog kya hoga?",
+    "options": [
+      "120",
+      "125",
+      "130",
+      "135"
+    ],
+    "correct_index": 2,
+    "explanation": "400 ka 25%=100, 200 ka 15%=30, yog=130."
+  },
+  {
+    "question": "RRB NTPC: (9² − 5²) ÷ 4 ka maan gyaat karein.",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correct_index": 2,
+    "explanation": "81-25=56, 56/4=14."
+  },
+  {
+    "question": "RRB NTPC: 7 + 8 × 2 − 6 ÷ 3 ka maan gyaat karein.",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correct_index": 2,
+    "explanation": "8*2=16, 6/3=2, 7+16-2=21 (BODMAS niyam se)."
+  },
+  {
+    "question": "RRB NTPC: 250 ka (3/5) bhaag + 168 ka (2/7) bhaag ka yog kya hoga?",
+    "options": [
+      "188",
+      "192",
+      "198",
+      "204"
+    ],
+    "correct_index": 2,
+    "explanation": "250*3/5=150, 168*2/7=48, yog=198."
+  },
+  {
+    "question": "RRB NTPC: 18 × 4 − (36 ÷ 6) + 10 ka maan gyaat karein.",
+    "options": [
+      "70",
+      "73",
+      "76",
+      "79"
+    ],
+    "correct_index": 2,
+    "explanation": "18*4=72, 36/6=6, 72-6+10=76."
+  },
+  {
+    "question": "RRB NTPC: √225 + √144 − √81 ka maan gyaat karein.",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correct_index": 2,
+    "explanation": "15+12-9=18."
+  },
+  {
+    "question": "RRB NTPC: (12 + 8) × (15 − 9) ÷ 4 ka maan gyaat karein.",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "33"
+    ],
+    "correct_index": 2,
+    "explanation": "20*6=120, 120/4=30."
+  },
+  {
+    "question": "RRB NTPC: 250 ka 40% − 150 ka 20% ka antar kya hoga?",
+    "options": [
+      "65",
+      "68",
+      "70",
+      "72"
+    ],
+    "correct_index": 2,
+    "explanation": "250 ka 40%=100, 150 ka 20%=30, antar=70."
+  },
+  {
+    "question": "RRB NTPC: (2³ + 3³) ÷ 5 ka maan gyaat karein.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "8+27=35, 35/5=7."
+  },
+  {
+    "question": "RRB NTPC: 12, 18 aur 24 ka LCM kya hoga?",
+    "options": [
+      "60",
+      "68",
+      "72",
+      "76"
+    ],
+    "correct_index": 2,
+    "explanation": "Abhajya guNankhand se LCM(12,18,24)=72."
+  },
+  {
+    "question": "RRB NTPC: 36 aur 60 ka HCF kya hoga?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct_index": 1,
+    "explanation": "36 aur 60 ka HCF=12."
+  },
+  {
+    "question": "RRB NTPC: 12, 15 aur 20 se vibhajya sabse chhoti sankhya kya hai?",
+    "options": [
+      "50",
+      "55",
+      "60",
+      "65"
+    ],
+    "correct_index": 2,
+    "explanation": "LCM(12,15,20)=60, yahi sabse chhoti sankhya hai."
+  },
+  {
+    "question": "RRB NTPC: 2^50 ko 7 se vibhajit karne par sheshfal kya hoga?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "2^3=8≡1 (mod 7), chakra 3 ka, 50 mod 3=2, isliye sheshfal=2^2=4."
+  },
+  {
+    "question": "RRB NTPC: 987654 ke ankon ka yog kya hoga?",
+    "options": [
+      "35",
+      "37",
+      "39",
+      "41"
+    ],
+    "correct_index": 2,
+    "explanation": "9+8+7+6+5+4=39."
+  },
+  {
+    "question": "RRB NTPC: 360 ke kitne guNankhand (factors) hain?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "correct_index": 2,
+    "explanation": "360=2^3*3^2*5^1, guNankhand=(3+1)*(2+1)*(1+1)=24."
+  },
+  {
+    "question": "RRB NTPC: In mein se kaun si sankhya 11 se vibhajya hai: 9163?",
+    "options": [
+      "Haan",
+      "Nahi",
+      "Anishchit",
+      "Kewal 3 se"
+    ],
+    "correct_index": 0,
+    "explanation": "Ekantar ankon ka antar=9-1+6-3=11, jo 11 se vibhajya hai."
+  },
+  {
+    "question": "RRB NTPC: 18 aur 24 ka LCM 72 hai. Unka HCF kya hoga?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "HCF*LCM=18*24=432, isliye HCF=432/72=6."
+  },
+  {
+    "question": "RRB NTPC: 27 se vibhajya sabse badi 4-anki sankhya kya hai?",
+    "options": [
+      "9963",
+      "9972",
+      "9981",
+      "9990"
+    ],
+    "correct_index": 3,
+    "explanation": "9999 ko 27 se bhag dene par sheshfal 9 aata hai, isliye 9999-9=9990."
+  },
+  {
+    "question": "RRB NTPC: Ek sankhya ko 5 se bhaag dene par sheshfal 3 aur 7 se bhaag dene par sheshfal 4 aata hai. Sabse chhoti aisi sankhya kya hai?",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correct_index": 2,
+    "explanation": "18 ko 5 se bhaag dene par sheshfal 3, 7 se bhaag dene par sheshfal 4 milta hai."
+  },
+  {
+    "question": "RRB NTPC: 7^95 ka ikai ank (unit digit) kya hoga?",
+    "options": [
+      "1",
+      "3",
+      "7",
+      "9"
+    ],
+    "correct_index": 1,
+    "explanation": "7 ka chakra [7,9,3,1] hai, 95 mod 4=3, isliye ikai ank=3."
+  },
+  {
+    "question": "RRB NTPC: 15m lambai aur 8m chaudai wale aayat ka kshetrafal kya hoga?",
+    "options": [
+      "110 sq m",
+      "115 sq m",
+      "120 sq m",
+      "125 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal=15*8=120 varg meter."
+  },
+  {
+    "question": "RRB NTPC: 14m bhuja wale vargakar ka kshetrafal kya hoga?",
+    "options": [
+      "186 sq m",
+      "190 sq m",
+      "196 sq m",
+      "200 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal=14*14=196 varg meter."
+  },
+  {
+    "question": "RRB NTPC: 7m trijya wale vritt ki paridhi kya hogi? (π=22/7 lein)",
+    "options": [
+      "40 m",
+      "42 m",
+      "44 m",
+      "46 m"
+    ],
+    "correct_index": 2,
+    "explanation": "Paridhi=2*(22/7)*7=44 meter."
+  },
+  {
+    "question": "RRB NTPC: 12m aadhar aur 9m unchai wale trikon ka kshetrafal kya hoga?",
+    "options": [
+      "48 sq m",
+      "51 sq m",
+      "54 sq m",
+      "57 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal=(1/2)*12*9=54 varg meter."
+  },
+  {
+    "question": "RRB NTPC: 6m bhuja wale ghan (cube) ka aayatan kya hoga?",
+    "options": [
+      "206 cu m",
+      "210 cu m",
+      "216 cu m",
+      "220 cu m"
+    ],
+    "correct_index": 2,
+    "explanation": "Aayatan=6*6*6=216 ghan meter."
+  },
+  {
+    "question": "RRB NTPC: 7m trijya aur 10m unchai wale belan (cylinder) ka aayatan kya hoga? (π=22/7 lein)",
+    "options": [
+      "1500 cu m",
+      "1520 cu m",
+      "1540 cu m",
+      "1560 cu m"
+    ],
+    "correct_index": 2,
+    "explanation": "Aayatan=(22/7)*7*7*10=1540 ghan meter."
+  },
+  {
+    "question": "RRB NTPC: 14m trijya wale vritt ka kshetrafal kya hoga? (π=22/7 lein)",
+    "options": [
+      "600 sq m",
+      "608 sq m",
+      "616 sq m",
+      "624 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal=(22/7)*14*14=616 varg meter."
+  },
+  {
+    "question": "RRB NTPC: Ek vargakar ka kshetrafal 225 varg meter hai. Uski paridhi kya hogi?",
+    "options": [
+      "55 m",
+      "58 m",
+      "60 m",
+      "62 m"
+    ],
+    "correct_index": 2,
+    "explanation": "Bhuja=√225=15m, Paridhi=4*15=60 meter."
+  },
+  {
+    "question": "RRB NTPC: 5m bhuja wale ghan ka sampurna satah kshetrafal (TSA) kya hoga?",
+    "options": [
+      "140 sq m",
+      "145 sq m",
+      "150 sq m",
+      "155 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "TSA=6*(5*5)=150 varg meter."
+  },
+  {
+    "question": "RRB NTPC: 10m aur 14m samaantar bhujaon aur 6m unchai wale samlamb chaturbhuj (trapezium) ka kshetrafal kya hoga?",
+    "options": [
+      "66 sq m",
+      "69 sq m",
+      "72 sq m",
+      "75 sq m"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal=((10+14)/2)*6=72 varg meter."
+  },
+  {
+    "question": "RRB NTPC: 10m lambai, 5m chaudai aur 4m unchai wale ghanabh (cuboid) ka aayatan kya hoga?",
+    "options": [
+      "180 cu m",
+      "190 cu m",
+      "200 cu m",
+      "210 cu m"
+    ],
+    "correct_index": 2,
+    "explanation": "Aayatan=10*5*4=200 ghan meter."
+  }
+]

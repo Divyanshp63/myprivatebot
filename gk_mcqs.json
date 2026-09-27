@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "RRB NTPC: Harappa sthal ki khoj kisne ki thi?",
+    "options": [
+      "John Marshall",
+      "Dayaram Sahni",
+      "R.D. Banerji",
+      "Mortimer Wheeler"
+    ],
+    "correct_index": 1,
+    "explanation": "Harappa ki khoj 1921 mein Dayaram Sahni ne ki thi."
+  },
+  {
+    "question": "RRB NTPC: Mohenjo-daro sthal ki khoj kisne ki thi?",
+    "options": [
+      "Dayaram Sahni",
+      "R.D. Banerji",
+      "John Marshall",
+      "Alexander Cunningham"
+    ],
+    "correct_index": 1,
+    "explanation": "Mohenjo-daro ki khoj 1922 mein R.D. Banerji ne ki thi."
+  },
+  {
+    "question": "RRB NTPC: Sindhu Ghati Sabhyata mukhyatah kis nadi ke kinare vikasit hui?",
+    "options": [
+      "Ganga",
+      "Sindhu",
+      "Yamuna",
+      "Godavari"
+    ],
+    "correct_index": 1,
+    "explanation": "Sindhu Ghati Sabhyata Sindhu nadi ke kinare vikasit hui."
+  },
+  {
+    "question": "RRB NTPC: Kul kitne Ved hain?",
+    "options": [
+      "Do",
+      "Teen",
+      "Chaar",
+      "Paanch"
+    ],
+    "correct_index": 2,
+    "explanation": "Ved chaar hain: Rig, Sama, Yajur aur Atharva Ved."
+  },
+  {
+    "question": "RRB NTPC: Gautam Buddha ko gyaan (bodhi) kahan prapt hua tha?",
+    "options": [
+      "Lumbini",
+      "Bodh Gaya",
+      "Sarnath",
+      "Kushinagar"
+    ],
+    "correct_index": 1,
+    "explanation": "Gautam Buddha ko Bodh Gaya mein gyaan prapt hua tha."
+  },
+  {
+    "question": "RRB NTPC: Maurya vansh ki sthapna kisne ki thi?",
+    "options": [
+      "Ashoka",
+      "Bindusara",
+      "Chandragupta Maurya",
+      "Samudragupta"
+    ],
+    "correct_index": 2,
+    "explanation": "Maurya vansh ki sthapna Chanakya ke margdarshan mein Chandragupta Maurya ne ki thi."
+  },
+  {
+    "question": "RRB NTPC: Samrat Ashoka ne Kalinga yudh kis varsh lada tha?",
+    "options": [
+      "251 BC",
+      "261 BC",
+      "271 BC",
+      "281 BC"
+    ],
+    "correct_index": 1,
+    "explanation": "Kalinga yudh 261 BC mein lada gaya tha."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Swarn Yug (Golden Age) kis vansh ke shasan ko kaha jata hai?",
+    "options": [
+      "Maurya vansh",
+      "Gupta vansh",
+      "Chola vansh",
+      "Kushan vansh"
+    ],
+    "correct_index": 1,
+    "explanation": "Gupta vansh ke shasan ko Bharat ka Swarn Yug kaha jata hai."
+  },
+  {
+    "question": "RRB NTPC: Dilli Saltanat ki sthapna kisne ki thi?",
+    "options": [
+      "Iltutmish",
+      "Qutub-ud-din Aibak",
+      "Balban",
+      "Alauddin Khilji"
+    ],
+    "correct_index": 1,
+    "explanation": "Dilli Saltanat ki sthapna 1206 mein Qutub-ud-din Aibak ne ki thi."
+  },
+  {
+    "question": "RRB NTPC: Qutub Minar ka nirman kisne shuru karwaya tha?",
+    "options": [
+      "Iltutmish",
+      "Qutub-ud-din Aibak",
+      "Firoz Shah Tughlaq",
+      "Alauddin Khilji"
+    ],
+    "correct_index": 1,
+    "explanation": "Qutub Minar ka nirman Qutub-ud-din Aibak ne shuru karwaya tha."
+  },
+  {
+    "question": "RRB NTPC: Panipat ka pratham yudh kis varsh hua tha?",
+    "options": [
+      "1526",
+      "1556",
+      "1576",
+      "1606"
+    ],
+    "correct_index": 0,
+    "explanation": "Panipat ka pratham yudh 1526 mein Babur aur Ibrahim Lodi ke beech hua tha."
+  },
+  {
+    "question": "RRB NTPC: Akbar ke Navratnon mein prasiddh vidwan-vinodpriya kaun the?",
+    "options": [
+      "Tansen",
+      "Birbal",
+      "Abul Fazl",
+      "Todar Mal"
+    ],
+    "correct_index": 1,
+    "explanation": "Birbal Akbar ke Navratnon mein apni buddhimatta ke liye prasiddh the."
+  },
+  {
+    "question": "RRB NTPC: Taj Mahal ka nirman kisne karwaya tha?",
+    "options": [
+      "Akbar",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correct_index": 2,
+    "explanation": "Taj Mahal ka nirman Shah Jahan ne Mumtaz Mahal ki yaad mein karwaya tha."
+  },
+  {
+    "question": "RRB NTPC: Haldighati ka yudh kis varsh hua tha?",
+    "options": [
+      "1556",
+      "1565",
+      "1576",
+      "1586"
+    ],
+    "correct_index": 2,
+    "explanation": "Haldighati ka yudh 1576 mein Maharana Pratap aur Akbar ki sena ke beech hua tha."
+  },
+  {
+    "question": "RRB NTPC: Sher Shah Suri ne kaun si prasiddh sadak banwayi thi?",
+    "options": [
+      "Golden Quadrilateral",
+      "Grand Trunk Road",
+      "National Highway",
+      "Silk Route"
+    ],
+    "correct_index": 1,
+    "explanation": "Sher Shah Suri ne Grand Trunk Road banwayi thi."
+  },
+  {
+    "question": "RRB NTPC: Antim shaktishali Mughal samrat kaun the?",
+    "options": [
+      "Shah Jahan",
+      "Jahangir",
+      "Aurangzeb",
+      "Bahadur Shah"
+    ],
+    "correct_index": 2,
+    "explanation": "Aurangzeb ko antim shaktishali Mughal samrat mana jata hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Pratham Swatantrata Sangram kab hua tha?",
+    "options": [
+      "1757",
+      "1857",
+      "1885",
+      "1905"
+    ],
+    "correct_index": 1,
+    "explanation": "Bharat ka Pratham Swatantrata Sangram 1857 mein hua tha."
+  },
+  {
+    "question": "RRB NTPC: Bharatiya Rashtriya Congress (INC) ki sthapna kisne ki thi?",
+    "options": [
+      "A.O. Hume",
+      "Dadabhai Naoroji",
+      "W.C. Banerjee",
+      "Surendranath Banerjee"
+    ],
+    "correct_index": 0,
+    "explanation": "INC ki sthapna 1885 mein A.O. Hume ne ki thi."
+  },
+  {
+    "question": "RRB NTPC: Jallianwala Bagh hatyakand kis varsh hua tha?",
+    "options": [
+      "1909",
+      "1919",
+      "1929",
+      "1939"
+    ],
+    "correct_index": 1,
+    "explanation": "Jallianwala Bagh hatyakand 1919 mein Amritsar mein hua tha."
+  },
+  {
+    "question": "RRB NTPC: Bharat Chhodo Andolan kab shuru hua tha?",
+    "options": [
+      "1930",
+      "1935",
+      "1942",
+      "1945"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat Chhodo Andolan 1942 mein Mahatma Gandhi dwara shuru kiya gaya."
+  },
+  {
+    "question": "RRB NTPC: Dandi Yatra (Namak Satyagraha) kis varsh shuru hui thi?",
+    "options": [
+      "1920",
+      "1930",
+      "1935",
+      "1940"
+    ],
+    "correct_index": 1,
+    "explanation": "Dandi Yatra 1930 mein Mahatma Gandhi dwara shuru ki gayi thi."
+  },
+  {
+    "question": "RRB NTPC: Asahyog Andolan kis varsh shuru hua tha?",
+    "options": [
+      "1917",
+      "1920",
+      "1922",
+      "1930"
+    ],
+    "correct_index": 1,
+    "explanation": "Asahyog Andolan 1920 mein shuru hua tha."
+  },
+  {
+    "question": "RRB NTPC: Bharat ko swatantrata kab mili thi?",
+    "options": [
+      "15 August 1945",
+      "26 January 1947",
+      "15 August 1947",
+      "26 January 1950"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat ko 15 August 1947 ko swatantrata mili thi."
+  },
+  {
+    "question": "RRB NTPC: Swatantra Bharat ke pratham Rashtrapati kaun the?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Dr. Rajendra Prasad",
+      "Dr. S. Radhakrishnan",
+      "Lord Mountbatten"
+    ],
+    "correct_index": 1,
+    "explanation": "Swatantra Bharat ke pratham Rashtrapati Dr. Rajendra Prasad the."
+  },
+  {
+    "question": "RRB NTPC: Azad Hind Fauj (INA) ka netritva kisne kiya tha?",
+    "options": [
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Chandrashekhar Azad",
+      "Lala Lajpat Rai"
+    ],
+    "correct_index": 1,
+    "explanation": "Azad Hind Fauj ka netritva Subhas Chandra Bose ne kiya tha."
+  },
+  {
+    "question": "RRB NTPC: Simon Commission Bharat kab aaya tha?",
+    "options": [
+      "1918",
+      "1928",
+      "1935",
+      "1942"
+    ],
+    "correct_index": 1,
+    "explanation": "Simon Commission 1928 mein Bharat aaya tha."
+  },
+  {
+    "question": "RRB NTPC: Bangal ka vibhajan (Partition of Bengal) kisne kiya tha?",
+    "options": [
+      "Lord Curzon",
+      "Lord Mountbatten",
+      "Lord Wellesley",
+      "Lord Dalhousie"
+    ],
+    "correct_index": 0,
+    "explanation": "Bangal ka vibhajan 1905 mein Lord Curzon ne kiya tha."
+  },
+  {
+    "question": "RRB NTPC: Mahatma Gandhi ka Bharat mein pehla Satyagraha kahan hua tha?",
+    "options": [
+      "Champaran",
+      "Kheda",
+      "Ahmedabad",
+      "Dandi"
+    ],
+    "correct_index": 0,
+    "explanation": "Mahatma Gandhi ka pehla Satyagraha 1917 mein Champaran (Bihar) mein hua tha."
+  },
+  {
+    "question": "RRB NTPC: Poorna Swaraj ki ghoshna kis INC adhiveshan mein hui thi?",
+    "options": [
+      "Lahore adhiveshan (1929)",
+      "Nagpur adhiveshan",
+      "Surat adhiveshan",
+      "Karachi adhiveshan"
+    ],
+    "correct_index": 0,
+    "explanation": "Poorna Swaraj ki ghoshna 1929 ke Lahore adhiveshan mein hui thi."
+  },
+  {
+    "question": "RRB NTPC: 1929 ke Lahore adhiveshan mein INC adhyaksh kaun the?",
+    "options": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Sardar Patel",
+      "Subhas Chandra Bose"
+    ],
+    "correct_index": 1,
+    "explanation": "1929 ke Lahore adhiveshan mein Jawaharlal Nehru INC adhyaksh the."
+  },
+  {
+    "question": "RRB NTPC: Bharatiya Samvidhan kab lagu hua tha?",
+    "options": [
+      "26 Jan 1949",
+      "26 Nov 1949",
+      "26 Jan 1950",
+      "15 Aug 1950"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharatiya Samvidhan 26 January 1950 ko lagu hua tha."
+  },
+  {
+    "question": "RRB NTPC: Samvidhan Sabha dwara Samvidhan kab apnaya (adopt) gaya tha?",
+    "options": [
+      "26 Nov 1949",
+      "26 Jan 1950",
+      "15 Aug 1947",
+      "9 Dec 1946"
+    ],
+    "correct_index": 0,
+    "explanation": "Samvidhan 26 November 1949 ko apnaya gaya tha."
+  },
+  {
+    "question": "RRB NTPC: Samvidhan Prarupan Samiti (Drafting Committee) ke adhyaksh kaun the?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Dr. B.R. Ambedkar",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct_index": 1,
+    "explanation": "Prarupan Samiti ke adhyaksh Dr. B.R. Ambedkar the."
+  },
+  {
+    "question": "RRB NTPC: Bharatiya Samvidhan mein 'Maulik Adhikar' kis desh se liye gaye hain?",
+    "options": [
+      "USA",
+      "Russia",
+      "UK",
+      "Canada"
+    ],
+    "correct_index": 0,
+    "explanation": "Maulik Adhikar (Fundamental Rights) USA ke samvidhan se liye gaye hain."
+  },
+  {
+    "question": "RRB NTPC: Rajya ke Niti Nirdeshak Tatva (DPSP) kis desh se liye gaye hain?",
+    "options": [
+      "USA",
+      "UK",
+      "Ireland",
+      "France"
+    ],
+    "correct_index": 2,
+    "explanation": "Niti Nirdeshak Tatva Ireland ke samvidhan se liye gaye hain."
+  },
+  {
+    "question": "RRB NTPC: Sansadiya shasan pranali kis desh se li gayi hai?",
+    "options": [
+      "USA",
+      "UK",
+      "France",
+      "Germany"
+    ],
+    "correct_index": 1,
+    "explanation": "Sansadiya shasan pranali UK se li gayi hai."
+  },
+  {
+    "question": "RRB NTPC: Vishwa ka sabse lamba likhit samvidhan kis desh ka hai?",
+    "options": [
+      "USA",
+      "Bharat",
+      "UK",
+      "Russia"
+    ],
+    "correct_index": 1,
+    "explanation": "Bharat ka samvidhan vishwa ka sabse lamba likhit samvidhan hai."
+  },
+  {
+    "question": "RRB NTPC: 'Samajwadi', 'Panthnirapeksh' aur 'Akhandata' shabd Prastavna mein kis sanshodhan se jode gaye?",
+    "options": [
+      "42nd sanshodhan",
+      "44th sanshodhan",
+      "73rd sanshodhan",
+      "86th sanshodhan"
+    ],
+    "correct_index": 0,
+    "explanation": "Ye shabd 1976 ke 42nd sanshodhan se Prastavna mein jode gaye."
+  },
+  {
+    "question": "RRB NTPC: Vartaman mein Maulik Adhikaron ki sankhya kitni hai?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 1,
+    "explanation": "Sampatti ke adhikar ko hatane ke baad vartaman mein 6 Maulik Adhikar hain."
+  },
+  {
+    "question": "RRB NTPC: Jeevan ke Adhikar ka pravdhan Samvidhan ke kis Anuchhed mein hai?",
+    "options": [
+      "Anuchhed 19",
+      "Anuchhed 21",
+      "Anuchhed 32",
+      "Anuchhed 14"
+    ],
+    "correct_index": 1,
+    "explanation": "Jeevan ke Adhikar ka pravdhan Anuchhed 21 mein hai."
+  },
+  {
+    "question": "RRB NTPC: Samvaidhanik Upacharon ke Adhikar ka pravdhan kis Anuchhed mein hai?",
+    "options": [
+      "Anuchhed 19",
+      "Anuchhed 21",
+      "Anuchhed 32",
+      "Anuchhed 44"
+    ],
+    "correct_index": 2,
+    "explanation": "Samvaidhanik Upacharon ka Adhikar Anuchhed 32 mein hai, ise Ambedkar ne 'Samvidhan ki Aatma' kaha."
+  },
+  {
+    "question": "RRB NTPC: Rashtrapati ka karyakal kitne varsh ka hota hai?",
+    "options": [
+      "4 varsh",
+      "5 varsh",
+      "6 varsh",
+      "7 varsh"
+    ],
+    "correct_index": 1,
+    "explanation": "Rashtrapati ka karyakal 5 varsh ka hota hai."
+  },
+  {
+    "question": "RRB NTPC: Rashtrapati pad ke liye nyunatam aayu kya hai?",
+    "options": [
+      "25 varsh",
+      "30 varsh",
+      "35 varsh",
+      "40 varsh"
+    ],
+    "correct_index": 2,
+    "explanation": "Rashtrapati pad ke liye nyunatam aayu 35 varsh hai."
+  },
+  {
+    "question": "RRB NTPC: Rajya Sabha ke paden-padhikari (ex-officio) Sabhapati kaun hote hain?",
+    "options": [
+      "Rashtrapati",
+      "Pradhanmantri",
+      "Uprashtrapati",
+      "Lok Sabha Adhyaksh"
+    ],
+    "correct_index": 2,
+    "explanation": "Uprashtrapati Rajya Sabha ke paden-padhikari Sabhapati hote hain."
+  },
+  {
+    "question": "RRB NTPC: Dhan Vidheyak (Money Bill) sabse pehle kahan pesh kiya ja sakta hai?",
+    "options": [
+      "Rajya Sabha",
+      "Lok Sabha",
+      "Dono Sadan",
+      "Rashtrapati ke paas"
+    ],
+    "correct_index": 1,
+    "explanation": "Dhan Vidheyak sirf Lok Sabha mein sabse pehle pesh kiya ja sakta hai."
+  },
+  {
+    "question": "RRB NTPC: Lok Sabha ki nirvachit sadasyon ki adhiktam sankhya kitni hai?",
+    "options": [
+      "525",
+      "543",
+      "552",
+      "565"
+    ],
+    "correct_index": 1,
+    "explanation": "Lok Sabha ki nirvachit sadasya sankhya 543 hai."
+  },
+  {
+    "question": "RRB NTPC: Rajya Sabha ki adhiktam sadasya sankhya kitni hai?",
+    "options": [
+      "238",
+      "245",
+      "250",
+      "255"
+    ],
+    "correct_index": 1,
+    "explanation": "Rajya Sabha ki adhiktam sadasya sankhya 245 hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ke Mukhya Nyayadhish ki niyukti kaun karta hai?",
+    "options": [
+      "Pradhanmantri",
+      "Rashtrapati",
+      "Uprashtrapati",
+      "Lok Sabha Adhyaksh"
+    ],
+    "correct_index": 1,
+    "explanation": "Bharat ke Mukhya Nyayadhish ki niyukti Rashtrapati karte hain."
+  },
+  {
+    "question": "RRB NTPC: Bharat ke Mahanyayavadi (Attorney General) ki niyukti kaun karta hai?",
+    "options": [
+      "Pradhanmantri",
+      "Rashtrapati",
+      "Sarvochcha Nyayalaya",
+      "Sansad"
+    ],
+    "correct_index": 1,
+    "explanation": "Mahanyayavadi ki niyukti Rashtrapati dwara ki jati hai."
+  },
+  {
+    "question": "RRB NTPC: CAG (Niyantrak evam Mahalekha Pariksak) ka pravdhan kis Anuchhed mein hai?",
+    "options": [
+      "Anuchhed 76",
+      "Anuchhed 148",
+      "Anuchhed 280",
+      "Anuchhed 324"
+    ],
+    "correct_index": 1,
+    "explanation": "CAG ka pravdhan Anuchhed 148 mein hai."
+  },
+  {
+    "question": "RRB NTPC: Nirvachan Aayog (Election Commission) ka pravdhan kis Anuchhed mein hai?",
+    "options": [
+      "Anuchhed 280",
+      "Anuchhed 300",
+      "Anuchhed 324",
+      "Anuchhed 356"
+    ],
+    "correct_index": 2,
+    "explanation": "Nirvachan Aayog ka pravdhan Anuchhed 324 mein hai."
+  },
+  {
+    "question": "RRB NTPC: Lok Sabha ke pratham Adhyaksh (Speaker) kaun the?",
+    "options": [
+      "G.V. Mavalankar",
+      "Hukam Singh",
+      "Neelam Sanjiva Reddy",
+      "K.S. Hegde"
+    ],
+    "correct_index": 0,
+    "explanation": "Lok Sabha ke pratham Adhyaksh G.V. Mavalankar the."
+  },
+  {
+    "question": "RRB NTPC: 73vaan Samvidhan Sanshodhan kis vishay se sambandhit hai?",
+    "options": [
+      "Nagarpalika",
+      "Panchayati Raj",
+      "Maulik Kartavya",
+      "Aarakshan"
+    ],
+    "correct_index": 1,
+    "explanation": "73vaan sanshodhan Panchayati Raj sansthaon se sambandhit hai."
+  },
+  {
+    "question": "RRB NTPC: 74vaan Samvidhan Sanshodhan kis vishay se sambandhit hai?",
+    "options": [
+      "Panchayati Raj",
+      "Nagarpalika",
+      "Shiksha ka Adhikar",
+      "Aarthik Aarakshan"
+    ],
+    "correct_index": 1,
+    "explanation": "74vaan sanshodhan Nagarpalikaon (Municipalities) se sambandhit hai."
+  },
+  {
+    "question": "RRB NTPC: Shiksha ka Adhikar (Right to Education) Samvidhan ke kis Anuchhed mein hai?",
+    "options": [
+      "Anuchhed 21A",
+      "Anuchhed 19",
+      "Anuchhed 32",
+      "Anuchhed 44"
+    ],
+    "correct_index": 0,
+    "explanation": "Shiksha ka Adhikar 86vaan sanshodhan dwara Anuchhed 21A mein jode gaya."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki sabse lambi nadi kaun si hai?",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Brahmaputra",
+      "Godavari"
+    ],
+    "correct_index": 1,
+    "explanation": "Ganga Bharat ki sabse lambi nadi hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka sabse ooncha parvat shikhar kaun sa hai?",
+    "options": [
+      "Nanda Devi",
+      "Kanchenjunga",
+      "K2",
+      "Anamudi"
+    ],
+    "correct_index": 1,
+    "explanation": "Kanchenjunga (Sikkim) Bharat ka sabse ooncha parvat shikhar hai."
+  },
+  {
+    "question": "RRB NTPC: Kshetrafal ke aadhar par Bharat ka sabse bada rajya kaun sa hai?",
+    "options": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "correct_index": 2,
+    "explanation": "Kshetrafal ke aadhar par Rajasthan Bharat ka sabse bada rajya hai."
+  },
+  {
+    "question": "RRB NTPC: Jansankhya ke aadhar par Bharat ka sabse bada rajya kaun sa hai?",
+    "options": [
+      "Maharashtra",
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "correct_index": 2,
+    "explanation": "Jansankhya ke aadhar par Uttar Pradesh Bharat ka sabse bada rajya hai."
+  },
+  {
+    "question": "RRB NTPC: Kshetrafal ke aadhar par Bharat ka sabse chhota rajya kaun sa hai?",
+    "options": [
+      "Sikkim",
+      "Goa",
+      "Tripura",
+      "Nagaland"
+    ],
+    "correct_index": 1,
+    "explanation": "Kshetrafal ke aadhar par Goa Bharat ka sabse chhota rajya hai."
+  },
+  {
+    "question": "RRB NTPC: Vishwa ki sabse lambi nadi kaun si hai?",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "correct_index": 1,
+    "explanation": "Nile vishwa ki sabse lambi nadi hai."
+  },
+  {
+    "question": "RRB NTPC: Kark Rekha (Tropic of Cancer) Bharat ke kitne rajyon se guzarti hai?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_index": 2,
+    "explanation": "Kark Rekha Bharat ke 8 rajyon se hokar guzarti hai."
+  },
+  {
+    "question": "RRB NTPC: Dakshin Bharat ka pathar kis naam se jana jata hai?",
+    "options": [
+      "Malwa Pathar",
+      "Deccan Pathar",
+      "Chota Nagpur Pathar",
+      "Marathwada Pathar"
+    ],
+    "correct_index": 1,
+    "explanation": "Dakshin Bharat ke pathar ko Deccan Pathar kaha jata hai."
+  },
+  {
+    "question": "RRB NTPC: Paschimi Ghat ko aur kis naam se jana jata hai?",
+    "options": [
+      "Sahyadri",
+      "Vindhya",
+      "Aravalli",
+      "Satpura"
+    ],
+    "correct_index": 0,
+    "explanation": "Paschimi Ghat ko Sahyadri ke naam se bhi jana jata hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka dakshinatam bindu (southernmost point) kaun sa hai?",
+    "options": [
+      "Kanyakumari",
+      "Indira Point",
+      "Rameswaram",
+      "Dhanushkodi"
+    ],
+    "correct_index": 1,
+    "explanation": "Indira Point (Great Nicobar) Bharat ka dakshinatam bindu hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki sabse lambi sthal seema kis desh ke saath hai?",
+    "options": [
+      "Pakistan",
+      "China",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat ki sabse lambi sthal seema Bangladesh ke saath hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki sabse badi khaari jheel (saltwater lake) kaun si hai?",
+    "options": [
+      "Wular Jheel",
+      "Chilika Jheel",
+      "Sambhar Jheel",
+      "Dal Jheel"
+    ],
+    "correct_index": 1,
+    "explanation": "Chilika Jheel (Odisha) Bharat ki sabse badi khaari jheel hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki sabse badi mitthe paani (freshwater) ki jheel kaun si hai?",
+    "options": [
+      "Wular Jheel",
+      "Chilika Jheel",
+      "Loktak Jheel",
+      "Dal Jheel"
+    ],
+    "correct_index": 0,
+    "explanation": "Wular Jheel (Jammu-Kashmir) Bharat ki sabse badi mitthe paani ki jheel hai."
+  },
+  {
+    "question": "RRB NTPC: Vishwa ka sabse ooncha parvat shikhar kaun sa hai?",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Kanchenjunga",
+      "Nanga Parbat"
+    ],
+    "correct_index": 1,
+    "explanation": "Mount Everest vishwa ka sabse ooncha parvat shikhar hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki sthal seema se lage padosi deshon ki sankhya kitni hai?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat ki sthal seema Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar aur Afghanistan (7 deshon) se lagi hai."
+  },
+  {
+    "question": "RRB NTPC: Narmada nadi kis prakar ki ghati mein baheti hai?",
+    "options": [
+      "Delta ghati",
+      "Bhransh (Rift) ghati",
+      "Himalayan ghati",
+      "Karst ghati"
+    ],
+    "correct_index": 1,
+    "explanation": "Narmada nadi ek bhransh (rift) ghati mein baheti hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka pramukh registan (desert) kaun sa hai?",
+    "options": [
+      "Thar Registan",
+      "Gobi Registan",
+      "Kutch Registan",
+      "Ladakh Registan"
+    ],
+    "correct_index": 0,
+    "explanation": "Thar Registan Rajasthan mein sthit Bharat ka pramukh registan hai."
+  },
+  {
+    "question": "RRB NTPC: Vishwa ka sabse bada delta kaun sa hai?",
+    "options": [
+      "Nile delta",
+      "Sundarban delta",
+      "Amazon delta",
+      "Mississippi delta"
+    ],
+    "correct_index": 1,
+    "explanation": "Ganga-Brahmaputra dwara banaya gaya Sundarban delta vishwa ka sabse bada delta hai."
+  },
+  {
+    "question": "RRB NTPC: Mahasagar ka sabse gehra bindu kaun sa hai?",
+    "options": [
+      "Mariana Khai",
+      "Java Khai",
+      "Tonga Khai",
+      "Puerto Rico Khai"
+    ],
+    "correct_index": 0,
+    "explanation": "Mariana Khai (Pacific Mahasagar) mahasagar ka sabse gehra bindu hai."
+  },
+  {
+    "question": "RRB NTPC: Bhartiya Reserve Bank (RBI) ka mukhyalaya kahan hai?",
+    "options": [
+      "Nayi Dilli",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "correct_index": 1,
+    "explanation": "RBI ka mukhyalaya Mumbai mein hai."
+  },
+  {
+    "question": "RRB NTPC: Swatantra Bharat ke pratham Pradhanmantri kaun the?",
+    "options": [
+      "Sardar Patel",
+      "Jawaharlal Nehru",
+      "Lal Bahadur Shastri",
+      "Rajendra Prasad"
+    ],
+    "correct_index": 1,
+    "explanation": "Swatantra Bharat ke pratham Pradhanmantri Jawaharlal Nehru the."
+  },
+  {
+    "question": "RRB NTPC: Bharat ki pratham mahila Pradhanmantri kaun thi?",
+    "options": [
+      "Sonia Gandhi",
+      "Indira Gandhi",
+      "Pratibha Patil",
+      "Sushma Swaraj"
+    ],
+    "correct_index": 1,
+    "explanation": "Bharat ki pratham mahila Pradhanmantri Indira Gandhi thi."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Rashtriya Pakshi (national bird) kaun sa hai?",
+    "options": [
+      "Mor",
+      "Tota",
+      "Baaz",
+      "Ullu"
+    ],
+    "correct_index": 0,
+    "explanation": "Mor (Peacock) Bharat ka Rashtriya Pakshi hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Rashtriya Pashu (national animal) kaun sa hai?",
+    "options": [
+      "Sher",
+      "Bagh (Tiger)",
+      "Hathi",
+      "Cheetah"
+    ],
+    "correct_index": 1,
+    "explanation": "Bagh (Tiger) Bharat ka Rashtriya Pashu hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Rashtriya Pushp (national flower) kaun sa hai?",
+    "options": [
+      "Gulab",
+      "Kamal",
+      "Sooraj Mukhi",
+      "Champa"
+    ],
+    "correct_index": 1,
+    "explanation": "Kamal (Lotus) Bharat ka Rashtriya Pushp hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat mein sarvochch nagrik samman (highest civilian award) kaun sa hai?",
+    "options": [
+      "Padma Vibhushan",
+      "Padma Bhushan",
+      "Bharat Ratna",
+      "Ashok Chakra"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat Ratna Bharat ka sarvochch nagrik samman hai."
+  },
+  {
+    "question": "RRB NTPC: Punjab ka pramukh lok nritya (folk dance) kaun sa hai?",
+    "options": [
+      "Bhangra",
+      "Garba",
+      "Bihu",
+      "Ghoomar"
+    ],
+    "correct_index": 0,
+    "explanation": "Bhangra Punjab ka pramukh lok nritya hai."
+  },
+  {
+    "question": "RRB NTPC: Rajasthan ka pramukh lok nritya kaun sa hai?",
+    "options": [
+      "Bhangra",
+      "Ghoomar",
+      "Garba",
+      "Lavani"
+    ],
+    "correct_index": 1,
+    "explanation": "Ghoomar Rajasthan ka pramukh lok nritya hai."
+  },
+  {
+    "question": "RRB NTPC: Gujarat ka pramukh lok nritya kaun sa hai?",
+    "options": [
+      "Garba",
+      "Bihu",
+      "Bhangra",
+      "Kathakali"
+    ],
+    "correct_index": 0,
+    "explanation": "Garba Gujarat ka pramukh lok nritya hai."
+  },
+  {
+    "question": "RRB NTPC: Assam ka pramukh lok nritya kaun sa hai?",
+    "options": [
+      "Bihu",
+      "Garba",
+      "Ghoomar",
+      "Lavani"
+    ],
+    "correct_index": 0,
+    "explanation": "Bihu Assam ka pramukh lok nritya hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka sabse ooncha baandh (dam) kaun sa hai?",
+    "options": [
+      "Bhakra Baandh",
+      "Tehri Baandh",
+      "Hirakud Baandh",
+      "Sardar Sarovar Baandh"
+    ],
+    "correct_index": 1,
+    "explanation": "Tehri Baandh (Uttarakhand) Bharat ka sabse ooncha baandh hai."
+  },
+  {
+    "question": "RRB NTPC: Bhakra Nangal Baandh kis nadi par sthit hai?",
+    "options": [
+      "Sutlej",
+      "Ravi",
+      "Beas",
+      "Chenab"
+    ],
+    "correct_index": 0,
+    "explanation": "Bhakra Nangal Baandh Sutlej nadi par sthit hai."
+  },
+  {
+    "question": "RRB NTPC: Hirakud Baandh kis nadi par sthit hai?",
+    "options": [
+      "Mahanadi",
+      "Godavari",
+      "Krishna",
+      "Kaveri"
+    ],
+    "correct_index": 0,
+    "explanation": "Hirakud Baandh Mahanadi nadi (Odisha) par sthit hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka pratham Rashtriya Udyan (national park) kaun sa hai?",
+    "options": [
+      "Kaziranga",
+      "Jim Corbett",
+      "Gir",
+      "Bandipur"
+    ],
+    "correct_index": 1,
+    "explanation": "Jim Corbett Rashtriya Udyan (Uttarakhand) Bharat ka pratham Rashtriya Udyan hai."
+  },
+  {
+    "question": "RRB NTPC: Kaziranga Rashtriya Udyan kis jeev ke liye prasiddh hai?",
+    "options": [
+      "Ek-singhe gainda",
+      "Bagh",
+      "Sher",
+      "Hathi"
+    ],
+    "correct_index": 0,
+    "explanation": "Kaziranga Rashtriya Udyan (Assam) ek-singhe gainde ke liye prasiddh hai."
+  },
+  {
+    "question": "RRB NTPC: Sanyukt Rashtra Sangh (UN) ka mukhyalaya kahan hai?",
+    "options": [
+      "London",
+      "New York",
+      "Geneva",
+      "Paris"
+    ],
+    "correct_index": 1,
+    "explanation": "Sanyukt Rashtra Sangh ka mukhyalaya New York mein hai."
+  },
+  {
+    "question": "RRB NTPC: Vishwa Swasthya Sangathan (WHO) ka mukhyalaya kahan hai?",
+    "options": [
+      "Geneva",
+      "New York",
+      "Vienna",
+      "Rome"
+    ],
+    "correct_index": 0,
+    "explanation": "WHO ka mukhyalaya Geneva (Switzerland) mein hai."
+  },
+  {
+    "question": "RRB NTPC: ISRO ka mukhyalaya kahan hai?",
+    "options": [
+      "Chennai",
+      "Bengaluru",
+      "Hyderabad",
+      "Thiruvananthapuram"
+    ],
+    "correct_index": 1,
+    "explanation": "ISRO ka mukhyalaya Bengaluru mein hai."
+  },
+  {
+    "question": "RRB NTPC: Japan ki mudra (currency) kya kehlati hai?",
+    "options": [
+      "Won",
+      "Yuan",
+      "Yen",
+      "Dong"
+    ],
+    "correct_index": 2,
+    "explanation": "Japan ki mudra Yen kehlati hai."
+  },
+  {
+    "question": "RRB NTPC: Nobel Puraskar prapt karne wale pratham Bharatiya kaun the?",
+    "options": [
+      "C.V. Raman",
+      "Rabindranath Tagore",
+      "Amartya Sen",
+      "Har Gobind Khorana"
+    ],
+    "correct_index": 1,
+    "explanation": "Rabindranath Tagore ko 1913 mein Sahitya ke liye Nobel Puraskar mila, wo pratham Bharatiya the."
+  },
+  {
+    "question": "RRB NTPC: Sabse adhik saksharta dar (literacy rate) wala Bharatiya rajya kaun sa hai?",
+    "options": [
+      "Mizoram",
+      "Kerala",
+      "Goa",
+      "Tripura"
+    ],
+    "correct_index": 1,
+    "explanation": "Kerala Bharat ka sabse adhik saksharta dar wala rajya hai."
+  },
+  {
+    "question": "RRB NTPC: 1954 mein pratham Bharat Ratna kisko-kisko diya gaya tha?",
+    "options": [
+      "Gandhi, Nehru, Patel",
+      "C. Rajagopalachari, C.V. Raman, S. Radhakrishnan",
+      "Tagore, Bose, Azad",
+      "Ambedkar, Shastri, Bose"
+    ],
+    "correct_index": 1,
+    "explanation": "1954 mein pratham Bharat Ratna C. Rajagopalachari, C.V. Raman aur S. Radhakrishnan ko diya gaya."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka koi aadhikarik Rashtriya Khel (national sport) ghoshit hai kya?",
+    "options": [
+      "Haan, Hockey",
+      "Haan, Cricket",
+      "Nahi, koi aadhikarik nahi",
+      "Haan, Kabaddi"
+    ],
+    "correct_index": 2,
+    "explanation": "Sarkar ne 2012 mein spasht kiya tha ki Bharat ka koi aadhikarik Rashtriya Khel ghoshit nahi hai."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka pratham upgrah (satellite) kaun sa tha?",
+    "options": [
+      "Bhaskara",
+      "Aryabhata",
+      "Rohini",
+      "INSAT-1"
+    ],
+    "correct_index": 1,
+    "explanation": "Aryabhata Bharat ka pratham upgrah tha, 1975 mein prakshepit kiya gaya."
+  },
+  {
+    "question": "RRB NTPC: Bharat ka Ganatantra Diwas (Republic Day) kab manaya jata hai?",
+    "options": [
+      "15 August",
+      "2 October",
+      "26 January",
+      "26 November"
+    ],
+    "correct_index": 2,
+    "explanation": "Bharat ka Ganatantra Diwas har varsh 26 January ko manaya jata hai."
+  }
+]

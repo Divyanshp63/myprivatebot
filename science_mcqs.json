@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "RRB NTPC: Bal (Force) ka SI ekak kya hai?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "correct_index": 1,
+    "explanation": "Bal ka SI ekak Newton hai."
+  },
+  {
+    "question": "RRB NTPC: Karya (Work) aur Urja (Energy) ka SI ekak kya hai?",
+    "options": [
+      "Newton",
+      "Watt",
+      "Joule",
+      "Pascal"
+    ],
+    "correct_index": 2,
+    "explanation": "Karya aur Urja ka SI ekak Joule hai."
+  },
+  {
+    "question": "RRB NTPC: Shakti (Power) ka SI ekak kya hai?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Ohm"
+    ],
+    "correct_index": 2,
+    "explanation": "Shakti ka SI ekak Watt hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut dhara (Electric Current) ka SI ekak kya hai?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Coulomb"
+    ],
+    "correct_index": 1,
+    "explanation": "Vidyut dhara ka SI ekak Ampere hai."
+  },
+  {
+    "question": "RRB NTPC: Taapmaan (Temperature) ka SI ekak kya hai?",
+    "options": [
+      "Celsius",
+      "Fahrenheit",
+      "Kelvin",
+      "Joule"
+    ],
+    "correct_index": 2,
+    "explanation": "Taapmaan ka SI ekak Kelvin hai."
+  },
+  {
+    "question": "RRB NTPC: Dabaav (Pressure) ka SI ekak kya hai?",
+    "options": [
+      "Pascal",
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "correct_index": 0,
+    "explanation": "Dabaav ka SI ekak Pascal hai."
+  },
+  {
+    "question": "RRB NTPC: Aavritti (Frequency) ka SI ekak kya hai?",
+    "options": [
+      "Hertz",
+      "Watt",
+      "Ohm",
+      "Volt"
+    ],
+    "correct_index": 0,
+    "explanation": "Aavritti ka SI ekak Hertz hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut Pratirodh (Electric Resistance) ka ekak kya hai?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Coulomb"
+    ],
+    "correct_index": 2,
+    "explanation": "Vidyut Pratirodh ka ekak Ohm hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut Aavesh (Electric Charge) ka ekak kya hai?",
+    "options": [
+      "Coulomb",
+      "Volt",
+      "Ampere",
+      "Watt"
+    ],
+    "correct_index": 0,
+    "explanation": "Vidyut Aavesh ka ekak Coulomb hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut Vibhav (Electric Potential) ka ekak kya hai?",
+    "options": [
+      "Ohm",
+      "Volt",
+      "Ampere",
+      "Coulomb"
+    ],
+    "correct_index": 1,
+    "explanation": "Vidyut Vibhav ka ekak Volt hai."
+  },
+  {
+    "question": "RRB NTPC: Nirvaat mein prakash ki chaal (speed of light) kitni hoti hai?",
+    "options": [
+      "3×10^6 m/s",
+      "3×10^8 m/s",
+      "3×10^10 m/s",
+      "3×10^5 m/s"
+    ],
+    "correct_index": 1,
+    "explanation": "Nirvaat mein prakash ki chaal lagbhag 3×10^8 meter/second hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Dhwani (Sound) sabse tez kis madhyam mein chalti hai?",
+    "options": [
+      "Gas",
+      "Dravya (Liquid)",
+      "Thos (Solid)",
+      "Nirvaat (Vacuum)"
+    ],
+    "correct_index": 2,
+    "explanation": "Dhwani sabse tez Thos (solid) madhyam mein chalti hai."
+  },
+  {
+    "question": "RRB NTPC: Dhwani kis madhyam mein nahi chal sakti?",
+    "options": [
+      "Thos",
+      "Dravya",
+      "Gas",
+      "Nirvaat (Vacuum)"
+    ],
+    "correct_index": 3,
+    "explanation": "Dhwani ko chalne ke liye madhyam chahiye, isliye wah Nirvaat mein nahi chal sakti."
+  },
+  {
+    "question": "RRB NTPC: Manav kaan ki suniye jaane wali aavritti seema kya hai?",
+    "options": [
+      "10-10000 Hz",
+      "20-20000 Hz",
+      "50-25000 Hz",
+      "100-15000 Hz"
+    ],
+    "correct_index": 1,
+    "explanation": "Manav kaan 20 Hz se 20000 Hz tak ki dhwani sun sakta hai."
+  },
+  {
+    "question": "RRB NTPC: Door-drishti dosh (Hypermetropia) ko theek karne ke liye kaun sa lens upyog hota hai?",
+    "options": [
+      "Uttal Lens (Convex)",
+      "Aveil Lens (Concave)",
+      "Belnakar Lens",
+      "Dwiutal Lens"
+    ],
+    "correct_index": 0,
+    "explanation": "Door-drishti dosh ko theek karne ke liye Uttal (Convex) Lens ka upyog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Nikat-drishti dosh (Myopia) ko theek karne ke liye kaun sa lens upyog hota hai?",
+    "options": [
+      "Uttal Lens (Convex)",
+      "Aveil Lens (Concave)",
+      "Belnakar Lens",
+      "Dwiutal Lens"
+    ],
+    "correct_index": 1,
+    "explanation": "Nikat-drishti dosh ko theek karne ke liye Aveil (Concave) Lens ka upyog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Indradhanush (Rainbow) banne ka mukhya karan kya hai?",
+    "options": [
+      "Prakash ka pravartan (Reflection)",
+      "Prakash ka apvartan aur vikiran",
+      "Prakash ka avshoshan",
+      "Prakash ka dhruvikaran"
+    ],
+    "correct_index": 1,
+    "explanation": "Indradhanush prakash ke apvartan (refraction) aur vikiran (dispersion) ke karan banta hai."
+  },
+  {
+    "question": "RRB NTPC: Vahan (vehicle) ke headlight mein kaun sa darpan (mirror) upyog hota hai?",
+    "options": [
+      "Uttal Darpan (Convex)",
+      "Aveil Darpan (Concave)",
+      "Samtal Darpan (Plane)",
+      "Belnakar Darpan"
+    ],
+    "correct_index": 1,
+    "explanation": "Vahan ke headlight mein Aveil (Concave) darpan upyog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vahan ke peeche dekhne wale darpan (rear-view mirror) mein kaun sa darpan upyog hota hai?",
+    "options": [
+      "Uttal Darpan (Convex)",
+      "Aveil Darpan (Concave)",
+      "Samtal Darpan (Plane)",
+      "Gol Darpan"
+    ],
+    "correct_index": 0,
+    "explanation": "Rear-view mirror mein Uttal (Convex) darpan upyog hota hai kyunki isse chaudा drishya kshetra milta hai."
+  },
+  {
+    "question": "RRB NTPC: Ohm ka niyam kya darshata hai?",
+    "options": [
+      "V = I/R",
+      "V = I × R",
+      "V = R/I",
+      "I = V × R"
+    ],
+    "correct_index": 1,
+    "explanation": "Ohm ke niyam ke anusaar V = I × R (Vibhavantar = Dhara × Pratirodh)."
+  },
+  {
+    "question": "RRB NTPC: Vidyut Motor kis urja ko kis urja mein badalti hai?",
+    "options": [
+      "Yantrik se Vidyut",
+      "Vidyut se Yantrik",
+      "Taap se Vidyut",
+      "Prakash se Vidyut"
+    ],
+    "correct_index": 1,
+    "explanation": "Vidyut Motor Vidyut Urja ko Yantrik Urja mein badalti hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut Janak (Generator/Dynamo) kis urja ko kis urja mein badalta hai?",
+    "options": [
+      "Yantrik se Vidyut",
+      "Vidyut se Yantrik",
+      "Taap se Prakash",
+      "Rasayanik se Vidyut"
+    ],
+    "correct_index": 0,
+    "explanation": "Generator Yantrik Urja ko Vidyut Urja mein badalta hai."
+  },
+  {
+    "question": "RRB NTPC: 1 Watt kis ke barabar hota hai?",
+    "options": [
+      "1 Joule × second",
+      "1 Joule / second",
+      "1 Newton / second",
+      "1 Newton × second"
+    ],
+    "correct_index": 1,
+    "explanation": "1 Watt = 1 Joule/second, yani prati second kiya gaya karya."
+  },
+  {
+    "question": "RRB NTPC: Gati ke niyam (Laws of Motion) kis vaigyanik ne diye the?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "James Watt"
+    ],
+    "correct_index": 1,
+    "explanation": "Gati ke teen niyam Isaac Newton ne diye the."
+  },
+  {
+    "question": "RRB NTPC: Dravyaman (Mass) ka SI ekak kya hai?",
+    "options": [
+      "Gram",
+      "Kilogram",
+      "Newton",
+      "Pound"
+    ],
+    "correct_index": 1,
+    "explanation": "Dravyaman ka SI ekak Kilogram hai."
+  },
+  {
+    "question": "RRB NTPC: Prithvi par gurutvakarshan ke karan tvaran (g) ka lagbhag maan kya hai?",
+    "options": [
+      "8.9 m/s²",
+      "9.8 m/s²",
+      "10.8 m/s²",
+      "11.2 m/s²"
+    ],
+    "correct_index": 1,
+    "explanation": "Prithvi par g ka lagbhag maan 9.8 meter/second² hota hai."
+  },
+  {
+    "question": "RRB NTPC: Gurutvakarshan tvaran ki disha kya hoti hai?",
+    "options": [
+      "Prithvi ke kendra ki taraf",
+      "Aakash ki taraf",
+      "Kshtij disha mein",
+      "Koi nishchit disha nahi"
+    ],
+    "correct_index": 0,
+    "explanation": "Gurutvakarshan tvaran hamesha Prithvi ke kendra ki taraf hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vayumandaliya dabaav (atmospheric pressure) mapne ke liye kaun sa yantra upyog hota hai?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Ammeter",
+      "Voltmeter"
+    ],
+    "correct_index": 1,
+    "explanation": "Vayumandaliya dabaav Barometer se mapa jata hai."
+  },
+  {
+    "question": "RRB NTPC: Taapmaan mapne ke liye kaun sa yantra upyog hota hai?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Ammeter",
+      "Manometer"
+    ],
+    "correct_index": 1,
+    "explanation": "Taapmaan Thermometer se mapa jata hai."
+  },
+  {
+    "question": "RRB NTPC: Vidyut dhara mapne ke liye kaun sa yantra upyog hota hai?",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Barometer",
+      "Thermometer"
+    ],
+    "correct_index": 1,
+    "explanation": "Vidyut dhara Ammeter se mapi jati hai."
+  },
+  {
+    "question": "RRB NTPC: Vibhavantar (potential difference) mapne ke liye kaun sa yantra upyog hota hai?",
+    "options": [
+      "Ammeter",
+      "Voltmeter",
+      "Barometer",
+      "Galvanometer sirf"
+    ],
+    "correct_index": 1,
+    "explanation": "Vibhavantar Voltmeter se mapa jata hai."
+  },
+  {
+    "question": "RRB NTPC: Saral Sukshmadarshi (Simple Microscope) mein kaun sa lens upyog hota hai?",
+    "options": [
+      "Aveil Lens",
+      "Uttal Lens",
+      "Belnakar Lens",
+      "Dwiaveil Lens"
+    ],
+    "correct_index": 1,
+    "explanation": "Saral Sukshmadarshi mein Uttal (Convex) Lens ka upyog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Parmanu Reaktor (Nuclear Reactor) mein urja kis prakriya se utpann hoti hai?",
+    "options": [
+      "Nabhikiya Vikhandan (Fission)",
+      "Nabhikiya Sanlayan (Fusion)",
+      "Dahan (Combustion)",
+      "Vidyut Apghatan"
+    ],
+    "correct_index": 0,
+    "explanation": "Parmanu Reaktar mein urja Nabhikiya Vikhandan (Nuclear Fission) se utpann hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Kisi vastu ki jaadatva (inertia) kis rashi par nirbhar karti hai?",
+    "options": [
+      "Vega (Velocity)",
+      "Dravyaman (Mass)",
+      "Tvaran (Acceleration)",
+      "Bal (Force)"
+    ],
+    "correct_index": 1,
+    "explanation": "Jaadatva (Inertia) vastu ke Dravyaman (Mass) par nirbhar karti hai."
+  },
+  {
+    "question": "RRB NTPC: Ek Newton bal kis ke barabar hota hai?",
+    "options": [
+      "1 kg×m/s²",
+      "1 kg×m²/s",
+      "1 kg/m×s",
+      "1 kg×s/m"
+    ],
+    "correct_index": 0,
+    "explanation": "1 Newton = 1 kg×m/s², yani ek kilogram ke dravyaman ko ek meter/second² tvaran dene wala bal."
+  },
+  {
+    "question": "RRB NTPC: Kisi lens ki shakti (power) ka ekak kya hai?",
+    "options": [
+      "Diopter",
+      "Watt",
+      "Joule",
+      "Hertz"
+    ],
+    "correct_index": 0,
+    "explanation": "Lens ki shakti Diopter mein mapi jati hai."
+  },
+  {
+    "question": "RRB NTPC: Sone (Gold) ka rasayanik prateek (chemical symbol) kya hai?",
+    "options": [
+      "Ag",
+      "Au",
+      "Go",
+      "Gd"
+    ],
+    "correct_index": 1,
+    "explanation": "Sone ka rasayanik prateek Au hai."
+  },
+  {
+    "question": "RRB NTPC: Chandi (Silver) ka rasayanik prateek kya hai?",
+    "options": [
+      "Ag",
+      "Au",
+      "Si",
+      "Sv"
+    ],
+    "correct_index": 0,
+    "explanation": "Chandi ka rasayanik prateek Ag hai."
+  },
+  {
+    "question": "RRB NTPC: Loha (Iron) ka rasayanik prateek kya hai?",
+    "options": [
+      "Ir",
+      "Fe",
+      "Fr",
+      "Io"
+    ],
+    "correct_index": 1,
+    "explanation": "Loha ka rasayanik prateek Fe hai."
+  },
+  {
+    "question": "RRB NTPC: Sodium ka rasayanik prateek kya hai?",
+    "options": [
+      "So",
+      "Sd",
+      "Na",
+      "Nd"
+    ],
+    "correct_index": 2,
+    "explanation": "Sodium ka rasayanik prateek Na hai."
+  },
+  {
+    "question": "RRB NTPC: Potassium ka rasayanik prateek kya hai?",
+    "options": [
+      "Po",
+      "Pt",
+      "K",
+      "Ps"
+    ],
+    "correct_index": 2,
+    "explanation": "Potassium ka rasayanik prateek K hai."
+  },
+  {
+    "question": "RRB NTPC: Aadhunik Aavart Sarni (Modern Periodic Table) ke janak kaun mane jate hain?",
+    "options": [
+      "Antoine Lavoisier",
+      "Dmitri Mendeleev",
+      "John Dalton",
+      "Niels Bohr"
+    ],
+    "correct_index": 1,
+    "explanation": "Dmitri Mendeleev ko Aavart Sarni ka janak mana jata hai."
+  },
+  {
+    "question": "RRB NTPC: Aadhunik Aavart Sarni mein kul kitne tatva (elements) hain?",
+    "options": [
+      "108",
+      "112",
+      "118",
+      "120"
+    ],
+    "correct_index": 2,
+    "explanation": "Aadhunik Aavart Sarni mein kul 118 tatva hain."
+  },
+  {
+    "question": "RRB NTPC: Shuddh jal (pure water) ka pH maan kya hota hai?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Shuddh jal ka pH maan 7 hota hai, jo udaseen (neutral) darshata hai."
+  },
+  {
+    "question": "RRB NTPC: 7 se kam pH maan kis prakriti ko darshata hai?",
+    "options": [
+      "Amliya (Acidic)",
+      "Kshariya (Basic)",
+      "Udaseen (Neutral)",
+      "Koi nahi"
+    ],
+    "correct_index": 0,
+    "explanation": "7 se kam pH maan Amliya (acidic) prakriti darshata hai."
+  },
+  {
+    "question": "RRB NTPC: 7 se adhik pH maan kis prakriti ko darshata hai?",
+    "options": [
+      "Amliya (Acidic)",
+      "Kshariya (Basic)",
+      "Udaseen (Neutral)",
+      "Koi nahi"
+    ],
+    "correct_index": 1,
+    "explanation": "7 se adhik pH maan Kshariya (basic/alkaline) prakriti darshata hai."
+  },
+  {
+    "question": "RRB NTPC: Jal (Water) ka rasayanik sutra kya hai?",
+    "options": [
+      "H2O2",
+      "H2O",
+      "HO2",
+      "H3O"
+    ],
+    "correct_index": 1,
+    "explanation": "Jal ka rasayanik sutra H2O hai."
+  },
+  {
+    "question": "RRB NTPC: Saadha Namak (Common Salt) ka rasayanik sutra kya hai?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "NaOH",
+      "Na2CO3"
+    ],
+    "correct_index": 0,
+    "explanation": "Saadha Namak ka rasayanik sutra NaCl (Sodium Chloride) hai."
+  },
+  {
+    "question": "RRB NTPC: Baking Soda ka rasayanik naam kya hai?",
+    "options": [
+      "Sodium Carbonate",
+      "Sodium Bicarbonate",
+      "Calcium Carbonate",
+      "Sodium Chloride"
+    ],
+    "correct_index": 1,
+    "explanation": "Baking Soda ka rasayanik naam Sodium Bicarbonate (NaHCO3) hai."
+  },
+  {
+    "question": "RRB NTPC: Aag bujhane wale yantra (fire extinguisher) mein kaun si gas upyog hoti hai?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correct_index": 2,
+    "explanation": "Fire extinguisher mein Carbon Dioxide (CO2) gas ka upyog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vayumandal mein sabse adhik matra mein paayi jaane wali gas kaun si hai?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Argon"
+    ],
+    "correct_index": 1,
+    "explanation": "Vayumandal mein sabse adhik matra Nitrogen gas ki hai (lagbhag 78%)."
+  },
+  {
+    "question": "RRB NTPC: Global Warming ke liye mukhya roop se kaun si gas zimmedar hai?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correct_index": 2,
+    "explanation": "Carbon Dioxide (CO2) Global Warming ke liye mukhya roop se zimmedar greenhouse gas hai."
+  },
+  {
+    "question": "RRB NTPC: Hydrogen ka parmaanu kramank (atomic number) kya hai?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "16"
+    ],
+    "correct_index": 0,
+    "explanation": "Hydrogen ka parmaanu kramank 1 hai."
+  },
+  {
+    "question": "RRB NTPC: Oxygen ka parmaanu kramank (atomic number) kya hai?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_index": 2,
+    "explanation": "Oxygen ka parmaanu kramank 8 hai."
+  },
+  {
+    "question": "RRB NTPC: Sirke (vinegar) mein kaun sa amal (acid) paaya jata hai?",
+    "options": [
+      "Citric Acid",
+      "Acetic Acid",
+      "Lactic Acid",
+      "Ascorbic Acid"
+    ],
+    "correct_index": 1,
+    "explanation": "Sirke mein Acetic Acid paaya jata hai."
+  },
+  {
+    "question": "RRB NTPC: Nimbu (lemon) mein kaun sa amal paaya jata hai?",
+    "options": [
+      "Citric Acid",
+      "Acetic Acid",
+      "Lactic Acid",
+      "Malic Acid"
+    ],
+    "correct_index": 0,
+    "explanation": "Nimbu mein Citric Acid paaya jata hai."
+  },
+  {
+    "question": "RRB NTPC: Dahi (curd) mein kaun sa amal paaya jata hai?",
+    "options": [
+      "Citric Acid",
+      "Acetic Acid",
+      "Lactic Acid",
+      "Tartaric Acid"
+    ],
+    "correct_index": 2,
+    "explanation": "Dahi mein Lactic Acid paaya jata hai."
+  },
+  {
+    "question": "RRB NTPC: Jang (Rust) ka rasayanik naam kya hai?",
+    "options": [
+      "Iron Oxide",
+      "Iron Sulphide",
+      "Iron Carbonate",
+      "Iron Nitrate"
+    ],
+    "correct_index": 0,
+    "explanation": "Jang mukhyatah Iron Oxide (Hydrated Fe2O3) hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Prakriti mein sabse kathor padarth (hardest substance) kaun sa hai?",
+    "options": [
+      "Sona",
+      "Heera (Diamond)",
+      "Loha",
+      "Graphite"
+    ],
+    "correct_index": 1,
+    "explanation": "Heera (Diamond) prakriti mein sabse kathor padarth hai."
+  },
+  {
+    "question": "RRB NTPC: Kamre ke taapmaan par kaun si dhaatu dravya (liquid) roop mein rehti hai?",
+    "options": [
+      "Sona",
+      "Chandi",
+      "Paara (Mercury)",
+      "Tanba"
+    ],
+    "correct_index": 2,
+    "explanation": "Paara (Mercury) kamre ke taapmaan par dravya roop mein rehta hai."
+  },
+  {
+    "question": "RRB NTPC: Kamre ke taapmaan par kaun si adhaatu dravya (liquid) roop mein rehti hai?",
+    "options": [
+      "Bromine",
+      "Chlorine",
+      "Iodine",
+      "Sulphur"
+    ],
+    "correct_index": 0,
+    "explanation": "Bromine kamre ke taapmaan par dravya roop mein rehta hai."
+  },
+  {
+    "question": "RRB NTPC: LPG (Liquefied Petroleum Gas) ke mukhya ghatak kya hain?",
+    "options": [
+      "Methane",
+      "Butane aur Propane",
+      "Ethane",
+      "Hydrogen"
+    ],
+    "correct_index": 1,
+    "explanation": "LPG mukhyatah Butane aur Propane ka mishran hoti hai."
+  },
+  {
+    "question": "RRB NTPC: CNG (Compressed Natural Gas) ka mukhya ghatak kya hai?",
+    "options": [
+      "Methane",
+      "Butane",
+      "Propane",
+      "Ethane"
+    ],
+    "correct_index": 0,
+    "explanation": "CNG ka mukhya ghatak Methane gas hai."
+  },
+  {
+    "question": "RRB NTPC: Sangmarmar (Marble) ka rasayanik naam kya hai?",
+    "options": [
+      "Calcium Oxide",
+      "Calcium Carbonate",
+      "Calcium Sulphate",
+      "Calcium Chloride"
+    ],
+    "correct_index": 1,
+    "explanation": "Sangmarmar ka rasayanik naam Calcium Carbonate hai."
+  },
+  {
+    "question": "RRB NTPC: Prakash Sanshleshan (Photosynthesis) mein paudhe kaun si gas grahan karte hain?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correct_index": 2,
+    "explanation": "Prakash Sanshleshan mein paudhe Carbon Dioxide grahan karte hain."
+  },
+  {
+    "question": "RRB NTPC: Prakash Sanshleshan ke dauraan paudhe kaun si gas mukt karte hain?",
+    "options": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correct_index": 1,
+    "explanation": "Prakash Sanshleshan ke dauraan paudhe Oxygen gas mukt karte hain."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir mein 'Master Gland' kise kaha jata hai?",
+    "options": [
+      "Thyroid Gland",
+      "Pituitary Gland",
+      "Adrenal Gland",
+      "Pancreas"
+    ],
+    "correct_index": 1,
+    "explanation": "Pituitary Gland ko Master Gland kaha jata hai kyunki yeh baaki granthiyon ko niyantrit karti hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir ki sabse badi granthi (largest gland) kaun si hai?",
+    "options": [
+      "Pituitary",
+      "Thyroid",
+      "Liver (Yakrit)",
+      "Pancreas"
+    ],
+    "correct_index": 2,
+    "explanation": "Liver (Yakrit) manav sharir ki sabse badi granthi hai."
+  },
+  {
+    "question": "RRB NTPC: Manav hriday (heart) mein kul kitne kaksh (chambers) hote hain?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 2,
+    "explanation": "Manav hriday mein 4 kaksh hote hain: 2 Atria aur 2 Ventricle."
+  },
+  {
+    "question": "RRB NTPC: Laal Rakt Koshikayen (Red Blood Cells) kahan banti hain?",
+    "options": [
+      "Yakrit (Liver)",
+      "Asthi Majja (Bone Marrow)",
+      "Pleeha (Spleen)",
+      "Hriday"
+    ],
+    "correct_index": 1,
+    "explanation": "Laal Rakt Koshikayen Asthi Majja (Bone Marrow) mein bantee hain."
+  },
+  {
+    "question": "RRB NTPC: Vitamin C ki kami se kaun sa rog hota hai?",
+    "options": [
+      "Rickets",
+      "Scurvy",
+      "Beriberi",
+      "Night Blindness"
+    ],
+    "correct_index": 1,
+    "explanation": "Vitamin C ki kami se Scurvy rog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vitamin D ki kami se kaun sa rog hota hai?",
+    "options": [
+      "Scurvy",
+      "Rickets",
+      "Beriberi",
+      "Anemia"
+    ],
+    "correct_index": 1,
+    "explanation": "Vitamin D ki kami se haddiyon ka rog Rickets hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vitamin A ki kami se kya hota hai?",
+    "options": [
+      "Ratondhi (Night Blindness)",
+      "Scurvy",
+      "Rickets",
+      "Beriberi"
+    ],
+    "correct_index": 0,
+    "explanation": "Vitamin A ki kami se Ratondhi (Night Blindness) hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Vitamin B1 ki kami se kaun sa rog hota hai?",
+    "options": [
+      "Scurvy",
+      "Rickets",
+      "Beriberi",
+      "Pellagra"
+    ],
+    "correct_index": 2,
+    "explanation": "Vitamin B1 (Thiamine) ki kami se Beriberi rog hota hai."
+  },
+  {
+    "question": "RRB NTPC: Vitamin K sharir mein mukhyatah kis kaam ke liye zaroori hai?",
+    "options": [
+      "Haddiyon ki mazbooti",
+      "Rakt jamna (Blood Clotting)",
+      "Drishti (Vision)",
+      "Praan Vayu ka parivahan"
+    ],
+    "correct_index": 1,
+    "explanation": "Vitamin K rakt jamne (Blood Clotting) ki prakriya mein zaroori hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir mein kul kitni haddiyan (bones) hoti hain?",
+    "options": [
+      "196",
+      "206",
+      "216",
+      "226"
+    ],
+    "correct_index": 1,
+    "explanation": "Manav sharir mein kul 206 haddiyan hoti hain."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir ki sabse badi haddi (bone) kaun si hai?",
+    "options": [
+      "Humerus",
+      "Femur",
+      "Tibia",
+      "Radius"
+    ],
+    "correct_index": 1,
+    "explanation": "Femur (jaandh ki haddi) manav sharir ki sabse badi haddi hai."
+  },
+  {
+    "question": "RRB NTPC: Manav kaan ki sabse chhoti haddi kaun si hai?",
+    "options": [
+      "Malleus",
+      "Incus",
+      "Stapes",
+      "Cochlea"
+    ],
+    "correct_index": 2,
+    "explanation": "Stapes manav sharir ki sabse chhoti haddi hai, jo kaan mein sthit hai."
+  },
+  {
+    "question": "RRB NTPC: Insulin hormone kis granthi se srawit hota hai?",
+    "options": [
+      "Thyroid",
+      "Pancreas",
+      "Pituitary",
+      "Adrenal"
+    ],
+    "correct_index": 1,
+    "explanation": "Insulin Pancreas (Agnyashay) se srawit hota hai."
+  },
+  {
+    "question": "RRB NTPC: Madhumeh (Diabetes) rog kis hormone ki kami se hota hai?",
+    "options": [
+      "Thyroxine",
+      "Insulin",
+      "Adrenaline",
+      "Estrogen"
+    ],
+    "correct_index": 1,
+    "explanation": "Madhumeh (Diabetes) Insulin ki kami ya asantulan se hota hai."
+  },
+  {
+    "question": "RRB NTPC: Prakash Sanshleshan paudhon ke kis bhaag mein hota hai?",
+    "options": [
+      "Jad (Root)",
+      "Patti mein Chloroplast",
+      "Tana (Stem)",
+      "Phool (Flower)"
+    ],
+    "correct_index": 1,
+    "explanation": "Prakash Sanshleshan patton mein sthit Chloroplast mein hota hai."
+  },
+  {
+    "question": "RRB NTPC: DNA ka poora naam kya hai?",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Dinitrogen Acid",
+      "Diribonucleic Acid",
+      "Deoxyribose Acid"
+    ],
+    "correct_index": 0,
+    "explanation": "DNA ka poora naam Deoxyribonucleic Acid hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir mein pachan kriya (digestion) sabse pehle kahan shuru hoti hai?",
+    "options": [
+      "Pet (Stomach)",
+      "Mooh (Mouth)",
+      "Chhoti Aant",
+      "Badi Aant"
+    ],
+    "correct_index": 1,
+    "explanation": "Pachan kriya Mooh mein laar (saliva) ke dwara shuru hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir ka sabse bada ang (organ) kaun sa hai?",
+    "options": [
+      "Yakrit (Liver)",
+      "Twacha (Skin)",
+      "Phephda (Lung)",
+      "Hriday (Heart)"
+    ],
+    "correct_index": 1,
+    "explanation": "Twacha (Skin) manav sharir ka sabse bada ang hai."
+  },
+  {
+    "question": "RRB NTPC: Rakt mein Praan Vayu (Oxygen) le jaane wala pigment kaun sa hai?",
+    "options": [
+      "Melanin",
+      "Hemoglobin",
+      "Chlorophyll",
+      "Keratin"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemoglobin rakt mein Praan Vayu (Oxygen) le jaane ka kaam karta hai."
+  },
+  {
+    "question": "RRB NTPC: Malaria rog kis parjeevi (parasite) se hota hai?",
+    "options": [
+      "Plasmodium",
+      "Bacteria",
+      "Fungus",
+      "Virus"
+    ],
+    "correct_index": 0,
+    "explanation": "Malaria rog madaa Anopheles machhar dwara failne wale Plasmodium parjeevi se hota hai."
+  },
+  {
+    "question": "RRB NTPC: Dengue rog kis machhar dwara failta hai?",
+    "options": [
+      "Anopheles",
+      "Aedes",
+      "Culex",
+      "Housefly"
+    ],
+    "correct_index": 1,
+    "explanation": "Dengue rog Aedes machhar dwara failta hai."
+  },
+  {
+    "question": "RRB NTPC: Tapedik (Tuberculosis/TB) rog kis jeevanu (bacteria) se hota hai?",
+    "options": [
+      "Mycobacterium tuberculosis",
+      "Plasmodium",
+      "Salmonella",
+      "Vibrio cholerae"
+    ],
+    "correct_index": 0,
+    "explanation": "TB rog Mycobacterium tuberculosis naamak jeevanu se hota hai."
+  },
+  {
+    "question": "RRB NTPC: Manav pachan tantra ka sabse lamba ang kaun sa hai?",
+    "options": [
+      "Ahar Nali",
+      "Chhoti Aant (Small Intestine)",
+      "Badi Aant (Large Intestine)",
+      "Pet (Stomach)"
+    ],
+    "correct_index": 1,
+    "explanation": "Chhoti Aant manav pachan tantra ka sabse lamba ang hai."
+  },
+  {
+    "question": "RRB NTPC: Sharir ki tantrika tantra (nervous system) ka niyantran kendra kya hai?",
+    "options": [
+      "Hriday",
+      "Mastishk (Brain)",
+      "Yakrit",
+      "Phephda"
+    ],
+    "correct_index": 1,
+    "explanation": "Mastishk (Brain) tantrika tantra ka niyantran kendra hai."
+  },
+  {
+    "question": "RRB NTPC: Prakash Sanshleshan ke liye zaroori mukhya pigment kaun sa hai?",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Melanin",
+      "Carotene"
+    ],
+    "correct_index": 1,
+    "explanation": "Chlorophyll (harit lavak) Prakash Sanshleshan ke liye zaroori mukhya pigment hai."
+  },
+  {
+    "question": "RRB NTPC: Ek vayask manav ke kul kitne daant hote hain?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "correct_index": 2,
+    "explanation": "Ek vayask manav ke kul 32 daant hote hain."
+  },
+  {
+    "question": "RRB NTPC: Rakt ka laal rang kis padarth ki wajah se hota hai?",
+    "options": [
+      "Melanin",
+      "Hemoglobin",
+      "Chlorophyll",
+      "Keratin"
+    ],
+    "correct_index": 1,
+    "explanation": "Rakt ka laal rang Hemoglobin mein maujood iron ki wajah se hota hai."
+  },
+  {
+    "question": "RRB NTPC: Safed Rakt Koshikayen (WBC) ka mukhya kaam kya hai?",
+    "options": [
+      "Praan Vayu ka parivahan",
+      "Sharir ki rogon se raksha (Immunity)",
+      "Bhojan ka pachan",
+      "Rakt jamna"
+    ],
+    "correct_index": 1,
+    "explanation": "WBC sharir ki rogon se raksha karti hain, yani unka mukhya kaam Immunity hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir ki sabse chhoti koshika (cell) kaun si mani jati hai?",
+    "options": [
+      "Nerve Cell",
+      "Sperm Cell",
+      "Red Blood Cell",
+      "Liver Cell"
+    ],
+    "correct_index": 1,
+    "explanation": "Sperm Cell ko manav sharir ki sabse chhoti koshika mana jata hai."
+  },
+  {
+    "question": "RRB NTPC: AIDS rog kis virus se hota hai?",
+    "options": [
+      "HIV",
+      "Influenza Virus",
+      "Corona Virus",
+      "Hepatitis Virus"
+    ],
+    "correct_index": 0,
+    "explanation": "AIDS rog HIV (Human Immunodeficiency Virus) se hota hai."
+  },
+  {
+    "question": "RRB NTPC: Paristhitik Tantra (Ecosystem) mein Khadya Shrinkhala (Food Chain) kis se shuru hoti hai?",
+    "options": [
+      "Maansahari (Carnivores)",
+      "Utpadak (Producers - paudhe)",
+      "Vighatak (Decomposers)",
+      "Shakahaari (Herbivores)"
+    ],
+    "correct_index": 1,
+    "explanation": "Khadya Shrinkhala Utpadak (Producers, yani paudhon) se shuru hoti hai."
+  },
+  {
+    "question": "RRB NTPC: Ozone parat kis gas se bani hoti hai jo UV kirnon se raksha karti hai?",
+    "options": [
+      "Oxygen",
+      "Ozone (O3)",
+      "Nitrogen",
+      "Carbon Dioxide"
+    ],
+    "correct_index": 1,
+    "explanation": "Ozone parat Ozone (O3) gas se bani hoti hai jo hanikarak UV kirnon se raksha karti hai."
+  },
+  {
+    "question": "RRB NTPC: Manav sharir ka saamanya (normal) taapmaan kitna hota hai?",
+    "options": [
+      "35°C",
+      "36°C",
+      "37°C",
+      "39°C"
+    ],
+    "correct_index": 2,
+    "explanation": "Manav sharir ka saamanya taapmaan lagbhag 37°C (98.6°F) hota hai."
+  },
+  {
+    "question": "RRB NTPC: Manav rakt ka pH range kya hota hai?",
+    "options": [
+      "6.0-6.5",
+      "7.0 sirf",
+      "7.35-7.45",
+      "8.0-8.5"
+    ],
+    "correct_index": 2,
+    "explanation": "Manav rakt halka kshariya hota hai, jiska pH range 7.35-7.45 hota hai."
+  }
+]
