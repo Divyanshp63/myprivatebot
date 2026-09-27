@@ -29,45 +29,80 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6KfSREWDbY-4wEE_vRymA
 ai_client = genai.Client(api_key=GEMINI_API_KEY)
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-# Primary aur Fallback models list
-MODELS_TO_TRY = ['gemini-3.8-flash', 'gemini-3-flash', 'gemini-1.5-flash-8b']
+# Primary model list (load balancing ke liye)
+MODELS_TO_TRY = ['gemini-3.8-flash']
 
-# ----------------- 3. Offline Backup PYQ Bank -----------------
-# Agar Google API temporary 100% fail ho jaye, toh user ko inme se authentic Railway PYQ turant mil jayega
-OFFLINE_PYQ_BANK = [
-    {
-        "question": "RRB NTPC: 1857 ke vidroh ke samay Bharat ka Governor-General kaun tha?",
-        "options": ["Lord Canning", "Lord Dalhousie", "Lord Curzon", "Lord William Bentinck"],
-        "correct_index": 0,
-        "explanation": "Lord Canning 1857 ke vidroh ke samay Governor-General tha, aur baad mein Bharat ka pehla Viceroy bana."
-    },
-    {
-        "question": "RRB NTPC: Ek train 72 km/h ki raftaar se 200m lambe bridge ko 20 second mein paar karti hai. Train ki lambai kya hai?",
-        "options": ["200 m", "250 m", "150 m", "300 m"],
-        "correct_index": 0,
-        "explanation": "Speed = 72 * (5/18) = 20 m/s. Kul doori = 20 * 20 = 400m. Train ki lambai = 400 - 200 = 200m."
-    },
-    {
-        "question": "RRB NTPC: Paani ka maximum density (adhiktam ghantva) kis tapmaan par hota hai?",
-        "options": ["0°C", "4°C", "100°C", "-4°C"],
-        "correct_index": 1,
-        "explanation": "Paani ka adhiktam ghantva 4°C (ya 277 Kelvin) par hota hai."
-    },
-    {
-        "question": "RRB NTPC: Bharatiya Samvidhan mein 'Maulik Adhikar' (Fundamental Rights) kis desh se liye gaye hain?",
-        "options": ["USA", "Russia", "UK", "Canada"],
-        "correct_index": 0,
-        "explanation": "Fundamental Rights United States (USA) ke Samvidhan se liye gaye hain (Bhag 3, Article 12-35)."
-    }
-]
+# ----------------- 3. Hardcoded Emergency Backup (Subject-wise) -----------------
+DEFAULT_EMERGENCY_BANK = {
+    "math": [
+        {
+            "question": "RRB NTPC: Ek train 72 km/h ki raftaar se 200m lambe bridge ko 20 second mein paar karti hai. Train ki lambai kya hai?",
+            "options": ["200 m", "250 m", "150 m", "300 m"],
+            "correct_index": 0,
+            "explanation": "Speed = 72 * (5/18) = 20 m/s. Doori = 20 * 20 = 400m. Train ki lambai = 400 - 200 = 200m."
+        },
+        {
+            "question": "RRB NTPC: A kisi kaam ko 10 din mein aur B 15 din mein karta hai. Dono milkar kitne din mein karenge?",
+            "options": ["5 din", "6 din", "8 din", "7.5 din"],
+            "correct_index": 1,
+            "explanation": "Kul kaam = (10 * 15) / (10 + 15) = 150 / 25 = 6 din."
+        }
+    ],
+    "gk": [
+        {
+            "question": "RRB NTPC: 1857 ke vidroh ke samay Bharat ka Governor-General kaun tha?",
+            "options": ["Lord Canning", "Lord Dalhousie", "Lord Curzon", "Lord William Bentinck"],
+            "correct_index": 0,
+            "explanation": "Lord Canning 1857 ke vidroh ke samay Governor-General aur pehla Viceroy bana."
+        },
+        {
+            "question": "RRB NTPC: Bharatiya Samvidhan mein 'Maulik Adhikar' (Fundamental Rights) kis desh se liye gaye hain?",
+            "options": ["USA", "Russia", "UK", "Canada"],
+            "correct_index": 0,
+            "explanation": "Fundamental Rights USA ke samvidhan se liye gaye hain (Bhag 3, Article 12-35)."
+        }
+    ],
+    "gs": [
+        {
+            "question": "RRB NTPC: Paani ka maximum density (adhiktam ghantva) kis tapmaan par hota hai?",
+            "options": ["0°C", "4°C", "100°C", "-4°C"],
+            "correct_index": 1,
+            "explanation": "Paani ka adhiktam ghantva 4°C (ya 277 Kelvin) par hota hai."
+        },
+        {
+            "question": "RRB NTPC: Manav sharir mein 'Master Gland' kise kaha jata hai?",
+            "options": ["Thyroid Gland", "Pituitary Gland", "Adrenal Gland", "Pancreas"],
+            "correct_index": 1,
+            "explanation": "Pituitary Gland (Piyush Granthi) ko Master Gland kaha jata hai."
+        }
+    ]
+}
 
-# ----------------- 4. Bulletproof AI Engine -----------------
+# ----------------- 4. questions.json Loader -----------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+JSON_FILE_PATH = os.path.join(BASE_DIR, "questions.json")
+
+OFFLINE_PYQ_BANK = {"math": [], "gk": [], "gs": []}
+
+if os.path.exists(JSON_FILE_PATH):
+    try:
+        with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
+            loaded_data = json.load(f)
+            if isinstance(loaded_data, dict):
+                OFFLINE_PYQ_BANK = loaded_data
+                logging.info(f"✅ questions.json load ho gaya! Math: {len(OFFLINE_PYQ_BANK.get('math', []))}, GK: {len(OFFLINE_PYQ_BANK.get('gk', []))}, GS: {len(OFFLINE_PYQ_BANK.get('gs', []))}")
+    except Exception as e:
+        logging.error(f"❌ questions.json load karne mein error: {e}")
+else:
+    logging.warning("⚠️ questions.json file nahi mili! Default offline bank use hoga.")
+
+# ----------------- 5. AI Call Engine -----------------
 async def call_gemini_safe(prompt, as_json=False):
-    """Multiple models try karega aur backoff retry ke saath run karega."""
+    """Temporary load hone par retry karega"""
     config = types.GenerateContentConfig(response_mime_type="application/json") if as_json else None
     
     for model_name in MODELS_TO_TRY:
-        for attempt in range(2):  # Har model ko 2 chances
+        for attempt in range(2):
             try:
                 response = ai_client.models.generate_content(
                     model=model_name,
@@ -77,13 +112,13 @@ async def call_gemini_safe(prompt, as_json=False):
                 if response and response.text:
                     return response.text
             except Exception as e:
-                logging.warning(f"Model {model_name} attempt {attempt+1} failed: {e}")
-                await asyncio.sleep(1.5)  # Thoda wait karke retry
+                logging.warning(f"Model {model_name} attempt {attempt+1} error: {e}")
+                await asyncio.sleep(1.5)
                 continue
                 
-    return None  # Saare models fail ho gaye
+    return None
 
-# ----------------- 5. Handlers -----------------
+# ----------------- 6. Handlers -----------------
 async def start(update, context):
     welcome_text = (
         "🚂 **RRB NTPC AI Study Partner mein aapka swagat hai!**\n\n"
@@ -123,34 +158,47 @@ async def handle_ntpc_notes(update, context):
         try:
             await status_msg.edit_text(res_text, parse_mode='Markdown')
         except Exception:
-            # Markdown parsing issue se bachne ke liye plain text fallback
             await status_msg.edit_text(res_text)
     else:
-        # User ko error code dikhane ke bajay friendly study tip
         fallback_msg = (
             f"📘 **RRB NTPC Rapid Revision: {topic}**\n\n"
-            "⚠️ AI servers par temporary load spike hai, par aapki padhai rukni nahi chahiye:\n"
-            "• Is topic ke previous year railway questions ko speed tests ke saath practice karein.\n"
-            "• Formulas aur shortcut tricks revise karein.\n\n"
+            "⚠️ AI servers par temporary load spike hai:\n"
+            "• Is topic ke previous year railway questions ko regular tests ke saath practice karein.\n"
+            "• Short notes revise karein.\n\n"
             "💡 Dobara command bhejein ya `/pyq` attempt karein!"
         )
         await status_msg.edit_text(fallback_msg)
 
 async def handle_pyq_quiz(update, context):
-    subject = "General Awareness & Science & Maths"
+    # Subject category aur label set karna
+    subject_category = "gk"
+    subject_title = "General Awareness (History, Polity, Geography, Static GK)"
+
     if context.args:
         arg = context.args[0].lower()
         if arg in ["math", "maths"]:
-            subject = "Mathematics (Arithmetic, Advance Maths)"
+            subject_category = "math"
+            subject_title = "Mathematics (Arithmetic, Advance Maths)"
         elif arg == "gk":
-            subject = "General Awareness (History, Polity, Geography, Static GK)"
+            subject_category = "gk"
+            subject_title = "General Awareness (History, Polity, Geography, Static GK)"
         elif arg == "gs":
-            subject = "General Science (Class 9th-10th Level Physics, Chemistry, Biology)"
+            subject_category = "gs"
+            subject_title = "General Science (Physics, Chemistry, Biology)"
+    else:
+        # Agar sirf /quiz likha ho toh random subject chunein
+        subject_category = random.choice(["math", "gk", "gs"])
+        titles = {
+            "math": "Mathematics (Arithmetic, Advance Maths)",
+            "gk": "General Awareness (History, Polity, Geography, Static GK)",
+            "gs": "General Science (Physics, Chemistry, Biology)"
+        }
+        subject_title = titles[subject_category]
 
-    status_msg = await update.message.reply_text(f"🎯 **RRB NTPC ({subject})** ka PYQ la raha hoon...")
+    status_msg = await update.message.reply_text(f"🎯 **RRB NTPC ({subject_title})** ka PYQ la raha hoon...")
 
     prompt = f"""
-    Generate exactly ONE authentic Multiple Choice Question strictly matching RRB NTPC CBT-1 / CBT-2 previous year papers for subject: "{subject}".
+    Generate exactly ONE authentic Multiple Choice Question strictly matching RRB NTPC CBT-1 / CBT-2 previous year papers for subject: "{subject_title}".
     
     Provide output ONLY as valid JSON (no markdown formatting, no codeblocks):
     {{
@@ -160,9 +208,9 @@ async def handle_pyq_quiz(update, context):
       "explanation": "Short 1-2 line explanation or calculation trick."
     }}
     Rules:
+    - Must belong strictly to {subject_title}.
     - correct_index must be an integer between 0 and 3.
     - Each option must be under 95 characters.
-    - The question should feel like an actual railway exam paper question.
     """
 
     quiz_data = None
@@ -170,17 +218,19 @@ async def handle_pyq_quiz(update, context):
 
     if res_text:
         try:
-            # Agar codeblocks aa jayein toh clean karna
             clean_json = res_text.replace("```json", "").replace("```", "").strip()
             quiz_data = json.loads(clean_json)
         except Exception as parse_err:
             logging.error(f"JSON Parse error: {parse_err}")
             quiz_data = None
 
-    # Agar AI down ho ya JSON galat ho, Offline PYQ Bank se direct pick karega
-    if not quiz_data:
-        logging.info("Serving from offline backup bank...")
-        quiz_data = random.choice(OFFLINE_PYQ_BANK)
+    # Fallback to category-filtered offline bank
+    if not quiz_data or "options" not in quiz_data:
+        available_questions = OFFLINE_PYQ_BANK.get(subject_category, [])
+        if available_questions:
+            quiz_data = random.choice(available_questions)
+        else:
+            quiz_data = random.choice(DEFAULT_EMERGENCY_BANK.get(subject_category, DEFAULT_EMERGENCY_BANK["gk"]))
 
     try:
         await status_msg.delete()
@@ -191,13 +241,13 @@ async def handle_pyq_quiz(update, context):
             is_anonymous=False,
             type='quiz',
             correct_option_id=int(quiz_data["correct_index"]),
-            explanation=quiz_data.get("explanation", "Right Answer!")[:195],
+            explanation=quiz_data.get("explanation", "Sahi Uttar!")[:195],
         )
     except Exception as e:
-        logging.error(f"Failed to send poll: {e}")
-        await update.message.reply_text("Quiz load hone mein dikkat aayi. Kripya ek baar fir `/quiz` type karein.")
+        logging.error(f"Poll bhejte samay error: {e}")
+        await update.message.reply_text("Quiz load hone mein dikkat aayi. Kripya ek baar fir try karein.")
 
-# ----------------- 6. Main App -----------------
+# ----------------- 7. Main App -----------------
 def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
