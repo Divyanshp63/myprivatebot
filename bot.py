@@ -1,97 +1,99 @@
-import os
+import json
+import logging
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
-from google import genai # या अपनी पसंद की AI लाइब्रेरी
+from google import genai
+from google.genai import types
 
-# --- कॉन्फ़िगरेशन ---
-# अपने टोकन को सुरक्षित रखें (आमतौर पर .env फ़ाइल से लोड किया जाता है)
-BOT_TOKEN = "8846774051:AAFhJunFo1jd3azOs5jckXLRJvS-yKS30Hk" 
-GEMINI_API_KEY = "AQ.Ab8RN6KfSREWDbY-4wEE_vRymAO6QYEwOuUYDc5pPHyCbWFoHg" # AI के लिए
+# ----------------- अपनी Keys यहाँ डालें -----------------
+BOT_TOKEN = "8846774051:AAFhJunFo1jd3azOs5jckXLRJvS-yKS30Hk"
+GEMINI_API_KEY = "AQ.Ab8RN6KfSREWDbY-4wEE_vRymAO6QYEwOuUYDc5pPHyCbWFoHg"
+# --------------------------------------------------------
 
-# AI मॉडल को इनिशियलाइज़ करें
-client = genai.Client(api_key=GEMINI_API_KEY)
-model = client.models.get('gemini-2.5-flash') 
+# Gemini क्लाइंट
+ai_client = genai.Client(api_key=GEMINI_API_KEY)
 
-# --- कमांड हैंडलर फ़ंक्शंस ---
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 async def start(update, context):
-    """/start कमांड को हैंडल करता है।"""
-    await update.message.reply_text('नमस्ते! मैं आपका Study Helper Bot हूँ। मुझे नोट्स या ट्रिक्स के लिए कोई विषय बताएं, या "/quiz" टाइप करके क्विज़ शुरू करें।')
-
-async def help_command(update, context):
-    """/help कमांड को हैंडल करता है।"""
-    help_text = (
-        "📚 **Study Helper Bot कमांड्स:**\n"
-        "/start - बातचीत शुरू करें\n"
-        "/help - यह मदद मेनू देखें\n"
-        "विषय टाइप करें - नोट्स या शॉर्ट ट्रिक्स प्राप्त करने के लिए (जैसे: 'History of India')\n"
-        "/quiz - एक नया क्विज़ शुरू करें"
+    welcome_text = (
+        "👋 **नमस्ते! मैं आपका AI Study Helper Bot हूँ।**\n\n"
+        "📖 **नोट्स और ट्रिक्स के लिए:** बस कोई भी टॉपिक लिखकर भेजें (उदा: *Photosynthesis*, *Mughal Empire*)\n\n"
+        "🎯 **क्विज़ के लिए:** `/quiz` या `/quiz Biology` लिखें।"
     )
-    await update.message.reply_text(help_text, parse_mode='Markdown')
+    await update.message.reply_text(welcome_text, parse_mode='Markdown')
 
-# --- मुख्य फ़ंक्शन: नोट्स/ट्रिक्स और क्विज़ जेनरेट करना ---
+async def handle_notes(update, context):
+    user_topic = update.message.text.strip()
+    status_msg = await update.message.reply_text(f"⏳ **{user_topic}** पर नोट्स और ट्रिक्स तैयार कर रहा हूँ...")
 
-async def handle_message(update, context):
-    """उपयोगकर्ता के किसी भी टेक्स्ट मैसेज को हैंडल करता है।"""
-    user_text = update.message.text.strip()
+    prompt = f"""
+    आप एक बेहतरीन शिक्षक हैं। विद्यार्थी ने टॉपिक दिया है: "{user_topic}".
+    कृपया निम्नलिखित फॉर्मेट में हिंदी और हिंग्लिश में जवाब दें:
     
-    # 1. नोट्स और शॉर्ट ट्रिक्स के लिए AI का उपयोग करना
+    📌 **मुख्य बिंदु (Key Notes):** (3-4 सबसे ज़रूरी बातें)
+    💡 **याद रखने की शॉर्ट ट्रिक (Memory Trick):** (आसान और मजेदार ट्रिक)
+    ⚠️ **महत्वपूर्ण तथ्य (Exam Tip):** (एक ज़रूरी परीक्षा बिंदु)
+    """
+
     try:
-        # यहाँ AI API कॉल का उदाहरण
-        # prompt = f"मुझे '{user_text}' विषय पर संक्षिप्त नोट्स और एक शॉर्ट ट्रिक दें।"
-        # response = model.generate_content(prompt)
-        # bot_response = response.text
-        
-        # अभी के लिए एक साधारण प्रतिक्रिया:
-        bot_response = f"⏳ मैं **{user_text}** पर नोट्स और ट्रिक्स जेनरेट कर रहा हूँ। AI का उपयोग करने के लिए आपको Gemini/OpenAI API को सेट अप करना होगा।"
-        
+        response = ai_client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+        )
+        await status_msg.edit_text(response.text, parse_mode='Markdown')
     except Exception as e:
-        # AI API में त्रुटि होने पर
-        bot_response = f"क्षमा करें, नोट्स जेनरेट करते समय एक त्रुटि हुई: {e}"
+        await status_msg.edit_text(f"❌ त्रुटि: {e}")
 
-    await update.message.reply_text(bot_response)
+async def generate_quiz(update, context):
+    topic = "General Knowledge / Science / Math"
+    if context.args:
+        topic = " ".join(context.args)
 
-async def start_quiz(update, context):
-    """/quiz कमांड को हैंडल करता है और क्विज़ शुरू करता है।"""
-    # 2. क्विज़ जेनरेट करने के लिए AI का उपयोग करना
-    
-    # यहाँ AI API कॉल का उदाहरण
-    # prompt = "मुझे 3 बहुविकल्पीय प्रश्न (MCQs) 'Science' विषय पर जेनरेट करके दें, साथ में सही उत्तर भी दें।"
-    # response = model.generate_content(prompt)
-    # quiz_data = response.text # AI से प्राप्त प्रश्न और उत्तर
-    
-    # Telegram की 'send_poll' सुविधा का उपयोग करके क्विज़ प्रश्न भेजें
-    question = "भारत की राजधानी क्या है?"
-    options = ["मुंबई", "कोलकाता", "नई दिल्ली", "चेन्नई"]
-    correct_option_id = 2  # 'नई दिल्ली' का इंडेक्स (0 से शुरू)
-    
-    await context.bot.send_poll(
-        chat_id=update.effective_chat.id,
-        question=question,
-        options=options,
-        is_anonymous=False, # क्विज़ के लिए इसे False रखें
-        type='quiz',
-        correct_option_id=correct_option_id,
-        explanation="नई दिल्ली भारत की राजधानी है।"
-    )
+    status_msg = await update.message.reply_text(f"🎲 **{topic}** पर सवाल तैयार हो रहा है...")
 
-# --- मुख्य फ़ंक्शन: बॉट शुरू करना ---
+    prompt = f"""
+    Generate one multiple-choice quiz question on: "{topic}".
+    Provide strictly JSON without markdown:
+    {{
+      "question": "Question text?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correct_index": 0,
+      "explanation": "Short reason"
+    }}
+    Note: correct_index must be 0, 1, 2, or 3.
+    """
+
+    try:
+        response = ai_client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json"
+            )
+        )
+        quiz_data = json.loads(response.text)
+        await status_msg.delete()
+
+        await context.bot.send_poll(
+            chat_id=update.effective_chat.id,
+            question=quiz_data["question"],
+            options=quiz_data["options"],
+            is_anonymous=False,
+            type='quiz',
+            correct_option_id=int(quiz_data["correct_index"]),
+            explanation=quiz_data.get("explanation", "सही उत्तर!"),
+        )
+    except Exception as e:
+        await status_msg.edit_text(f"❌ क्विज़ जनरेट करने में त्रुटि: {e}")
 
 def main():
-    """बॉट को शुरू करता है।"""
-    application = ApplicationBuilder().token(BOT_TOKEN).build()
+    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("quiz", generate_quiz))
+    app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_notes))
 
-    # कमांड हैंडलर जोड़ें
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(CommandHandler("help", help_command))
-    application.add_handler(CommandHandler("quiz", start_quiz))
-
-    # टेक्स्ट मैसेज हैंडलर जोड़ें (यह नोट्स/ट्रिक्स के लिए है)
-    application.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
-    
-    print("बॉट शुरू हो रहा है...")
-    # बॉट को निरंतर सुनना शुरू करें
-    application.run_polling()
+    print("✅ बॉट सफलतापूर्वक चालू हो गया है! Telegram पर टेस्ट करें...")
+    app.run_polling()
 
 if __name__ == '__main__':
-    # सुनिश्चित करें कि आपने BOT_TOKEN और AI API Key को सही ढंग से सेट किया है।
     main()
