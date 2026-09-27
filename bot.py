@@ -1,3 +1,22 @@
+import os
+import threading
+from flask import Flask
+
+# 1. डमी वेब सर्वर (ताकि Render सर्विस को बंद न करे)
+web_app = Flask(__name__)
+
+@web_app.route('/')
+def home():
+    return "Bot is alive!"
+
+def run_web():
+    port = int(os.environ.get("PORT", 8080))
+    web_app.run(host="0.0.0.0", port=port)
+
+# बैकग्राउंड थ्रेड में वेब सर्वर चालू करें
+threading.Thread(target=run_web, daemon=True).start()
+
+# --- इसके नीचे आपका पुराना bot.py कोड (imports, start, handle_notes, generate_quiz, main) रहेगा ---
 import json
 import logging
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
